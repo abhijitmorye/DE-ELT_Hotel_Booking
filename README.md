@@ -10,10 +10,11 @@ Built end-to-end data engineering pipeline to extract, load, and transform Hotel
 
 ## Data/Tech stack
 
-- [Set up](#setup)
-- [Extract via Airflow](#extract-via-airbyte)
-- [Transform via PySpark](#transform-via-dbt-cloud)
-- [Load into Databricks DeltaLakeHouse](https://www.databricks.com/product/data-lakehouse)
+- Extract via Airflow
+- Transform via PySpark
+- Load into intermediate Azure Blob Storage
+- Azure Data Factory using lookup and the Databricks notebook activity
+- Load into Databricks DeltaLakeHouse
 
 ### Pipeline Architecture
 

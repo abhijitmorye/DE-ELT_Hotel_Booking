@@ -17,7 +17,7 @@ Built end-to-end data engineering pipeline to extract, load, and transform Hotel
 
 ### Pipeline Architecture
 
-[alt text](https://github.com/abhijitmorye/DE-ELT_Hotel_Booking/blob/main/img/architecture.drawio.png?raw=true)
+![alt text](https://github.com/abhijitmorye/DE-ELT_Hotel_Booking/blob/main/img/architecture.drawio.png?raw=true)
 
 ### Steps Performed
 
@@ -41,8 +41,8 @@ Built end-to-end data engineering pipeline to extract, load, and transform Hotel
 
 ### ADF Pipeline
 
-[alt text](https://github.com/abhijitmorye/DE-ELT_Hotel_Booking/blob/main/img/ADF_pipeline.JPG?raw=true)
+![alt text](https://github.com/abhijitmorye/DE-ELT_Hotel_Booking/blob/main/img/ADF_pipeline.JPG?raw=true)
 
 ### Databricks DeltaLakehouse
 
-[alt text](https://github.com/abhijitmorye/DE-ELT_Hotel_Booking/blob/main/img/Deltalakehouse.JPG?raw=true)
+![alt text](https://github.com/abhijitmorye/DE-ELT_Hotel_Booking/blob/main/img/Deltalakehouse.JPG?raw=true)

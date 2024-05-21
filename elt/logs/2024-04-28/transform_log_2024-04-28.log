@@ -1,0 +1,700 @@
+28-Apr-24 01:15:00 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+28-Apr-24 01:15:00 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+28-Apr-24 01:15:00 - JSON input directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/json_data/2024-04-28
+28-Apr-24 01:15:00 - CSV Data directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/csv_data/2024-04-28
+28-Apr-24 01:15:12 - Transform Spark session is created, processing further
+28-Apr-24 01:15:12 - Transforming district_ into csv format
+28-Apr-24 01:15:24 - +--------+-------+-----------+----------------+---------------+--------+---------+
+| city_id|country|district_id|        latitude|      longitude|    name|nr_hotels|
++--------+-------+-----------+----------------+---------------+--------+---------+
+|-1456928|     fr|          1|48.8630297608954|2.3399184771677|1st arr.|      261|
+|-1456928|     fr|          2|48.8678666848111|2.3460338586984|2nd arr.|      456|
++--------+-------+-----------+----------------+---------------+--------+---------+
+only showing top 2 rows
+28-Apr-24 01:15:24 - None
+28-Apr-24 01:15:24 - City id column found in district_
+28-Apr-24 01:15:25 - Transformation of district_ completed, time taken 0:00:12.869667
+28-Apr-24 01:15:25 - Transforming room_types_ into csv format
+28-Apr-24 01:15:25 - +------------------+------------+
+|              name|room_type_id|
++------------------+------------+
+|         Apartment|           1|
+|Presidential Suite|           2|
++------------------+------------+
+only showing top 2 rows
+28-Apr-24 01:15:25 - None
+28-Apr-24 01:15:25 - Transformation of room_types_ completed, time taken 0:00:00.873928
+28-Apr-24 01:15:25 - Transforming room_facility_types_ into csv format
+28-Apr-24 01:15:26 - +----------------+-------------------+---------------------+
+|facility_type_id|               name|room_facility_type_id|
++----------------+-------------------+---------------------+
+|               7|   Tea/Coffee maker|                    1|
+|               3|Internet facilities|                    2|
++----------------+-------------------+---------------------+
+only showing top 2 rows
+28-Apr-24 01:15:26 - None
+28-Apr-24 01:15:26 - Transformation of room_facility_types_ completed, time taken 0:00:01.004183
+28-Apr-24 01:15:26 - Transforming regions_ into csv format
+28-Apr-24 01:15:27 - Error occured while transforming file, regions_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 01:15:27 - Transforming hotels_ into csv format
+28-Apr-24 01:15:28 - Error occured while transforming file, hotels_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 01:15:28 - Transforming cities_ into csv format
+28-Apr-24 01:15:29 - +--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+| city_id|country|        latitude|       longitude|             name|nr_hotels|timezone_name|timezone_offset|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+|-3881514|     pk|33.3194007873535|73.2596969604492|             Kary|        0| Asia/Karachi|              5|
+|-3881466|     pk|34.0208015441895|71.5916976928711|Sarāj Malik Wazīr|        0| Asia/Karachi|              5|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+only showing top 2 rows
+28-Apr-24 01:15:29 - None
+28-Apr-24 01:15:29 - City id column found in cities_
+28-Apr-24 01:15:29 - Transformation of cities_ completed, time taken 0:00:01.308370
+28-Apr-24 01:15:29 - Transforming facility_types_ into csv format
+28-Apr-24 01:15:30 - +----------------+----------+
+|facility_type_id|      name|
++----------------+----------+
+|               1|   General|
+|               2|Activities|
++----------------+----------+
+only showing top 2 rows
+28-Apr-24 01:15:30 - None
+28-Apr-24 01:15:30 - Transformation of facility_types_ completed, time taken 0:00:00.848245
+28-Apr-24 01:15:30 - Transforming country_ into csv format
+28-Apr-24 01:15:31 - +-----------+-------+--------------------+
+|       area|country|                name|
++-----------+-------+--------------------+
+|     Europe|     ad|             Andorra|
+|Middle East|     ae|United Arab Emirates|
++-----------+-------+--------------------+
+only showing top 2 rows
+28-Apr-24 01:15:31 - None
+28-Apr-24 01:15:31 - Transformation of country_ completed, time taken 0:00:00.986539
+28-Apr-24 01:15:31 - Transforming payment_types_ into csv format
+28-Apr-24 01:15:31 - Error occured while transforming file, payment_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 01:15:31 - Transforming hotel_facility_types_ into csv format
+28-Apr-24 01:15:32 - +----------------+----------------------+----------+
+|facility_type_id|hotel_facility_type_id|      name|
++----------------+----------------------+----------+
+|               1|                     2|   Parking|
+|               7|                     3|Restaurant|
++----------------+----------------------+----------+
+only showing top 2 rows
+28-Apr-24 01:15:32 - None
+28-Apr-24 01:15:32 - Transformation of hotel_facility_types_ completed, time taken 0:00:00.850907
+28-Apr-24 01:15:32 - Transforming hotel_types_ into csv format
+28-Apr-24 01:15:33 - +-------------+-------------------+
+|hotel_type_id|               name|
++-------------+-------------------+
+|          201|         Apartments|
+|          202|Guest accommodation|
++-------------+-------------------+
+only showing top 2 rows
+28-Apr-24 01:15:33 - None
+28-Apr-24 01:15:33 - Transformation of hotel_types_ completed, time taken 0:00:00.732115
+28-Apr-24 01:15:33 - Transforming chain_types_ into csv format
+28-Apr-24 01:15:33 - Error occured while transforming file, chain_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 01:15:34 - Stopping spark sesion
+28-Apr-24 01:15:34 - Transformation completed, time taken 0:00:34.061566
+28-Apr-24 01:15:34 - Done. Returned value was: None
+28-Apr-24 01:15:34 - ::group::Post task execution logs
+28-Apr-24 01:15:34 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=transform_hotel_api_data_task, execution_date=20240428T011448, start_date=20240428T011459, end_date=20240428T011534
+28-Apr-24 01:21:42 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+28-Apr-24 01:21:42 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+28-Apr-24 01:21:42 - JSON input directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/json_data/2024-04-28
+28-Apr-24 01:21:42 - CSV Data directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/csv_data/2024-04-28
+28-Apr-24 01:21:49 - Transform Spark session is created, processing further
+28-Apr-24 01:21:49 - Transforming district_ into csv format
+28-Apr-24 01:22:00 - +--------+-------+-----------+----------------+---------------+--------+---------+
+| city_id|country|district_id|        latitude|      longitude|    name|nr_hotels|
++--------+-------+-----------+----------------+---------------+--------+---------+
+|-1456928|     fr|          1|48.8630297608954|2.3399184771677|1st arr.|      261|
+|-1456928|     fr|          2|48.8678666848111|2.3460338586984|2nd arr.|      456|
++--------+-------+-----------+----------------+---------------+--------+---------+
+only showing top 2 rows
+28-Apr-24 01:22:00 - None
+28-Apr-24 01:22:00 - City id column found in district_
+28-Apr-24 01:22:00 - Transformation of district_ completed, time taken 0:00:11.358309
+28-Apr-24 01:22:00 - Transforming room_types_ into csv format
+28-Apr-24 01:22:01 - +------------------+------------+
+|              name|room_type_id|
++------------------+------------+
+|         Apartment|           1|
+|Presidential Suite|           2|
++------------------+------------+
+only showing top 2 rows
+28-Apr-24 01:22:01 - None
+28-Apr-24 01:22:01 - Transformation of room_types_ completed, time taken 0:00:01.007504
+28-Apr-24 01:22:01 - Transforming room_facility_types_ into csv format
+28-Apr-24 01:22:02 - +----------------+-------------------+---------------------+
+|facility_type_id|               name|room_facility_type_id|
++----------------+-------------------+---------------------+
+|               7|   Tea/Coffee maker|                    1|
+|               3|Internet facilities|                    2|
++----------------+-------------------+---------------------+
+only showing top 2 rows
+28-Apr-24 01:22:02 - None
+28-Apr-24 01:22:02 - Transformation of room_facility_types_ completed, time taken 0:00:01.108062
+28-Apr-24 01:22:02 - Transforming regions_ into csv format
+28-Apr-24 01:22:03 - Error occured while transforming file, regions_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 01:22:03 - Transforming hotels_ into csv format
+28-Apr-24 01:22:03 - Error occured while transforming file, hotels_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 01:22:04 - Transforming cities_ into csv format
+28-Apr-24 01:22:05 - +--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+| city_id|country|        latitude|       longitude|             name|nr_hotels|timezone_name|timezone_offset|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+|-3881514|     pk|33.3194007873535|73.2596969604492|             Kary|        0| Asia/Karachi|              5|
+|-3881466|     pk|34.0208015441895|71.5916976928711|Sarāj Malik Wazīr|        0| Asia/Karachi|              5|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+only showing top 2 rows
+28-Apr-24 01:22:05 - None
+28-Apr-24 01:22:05 - City id column found in cities_
+28-Apr-24 01:22:05 - Transformation of cities_ completed, time taken 0:00:01.405725
+28-Apr-24 01:22:05 - Transforming facility_types_ into csv format
+28-Apr-24 01:22:05 - +----------------+----------+
+|facility_type_id|      name|
++----------------+----------+
+|               1|   General|
+|               2|Activities|
++----------------+----------+
+only showing top 2 rows
+28-Apr-24 01:22:05 - None
+28-Apr-24 01:22:06 - Transformation of facility_types_ completed, time taken 0:00:00.643553
+28-Apr-24 01:22:06 - Transforming country_ into csv format
+28-Apr-24 01:22:06 - +-----------+-------+--------------------+
+|       area|country|                name|
++-----------+-------+--------------------+
+|     Europe|     ad|             Andorra|
+|Middle East|     ae|United Arab Emirates|
++-----------+-------+--------------------+
+only showing top 2 rows
+28-Apr-24 01:22:06 - None
+28-Apr-24 01:22:06 - Transformation of country_ completed, time taken 0:00:00.759308
+28-Apr-24 01:22:06 - Transforming payment_types_ into csv format
+28-Apr-24 01:22:07 - Error occured while transforming file, payment_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 01:22:07 - Transforming hotel_facility_types_ into csv format
+28-Apr-24 01:22:07 - +----------------+----------------------+----------+
+|facility_type_id|hotel_facility_type_id|      name|
++----------------+----------------------+----------+
+|               1|                     2|   Parking|
+|               7|                     3|Restaurant|
++----------------+----------------------+----------+
+only showing top 2 rows
+28-Apr-24 01:22:07 - None
+28-Apr-24 01:22:07 - Transformation of hotel_facility_types_ completed, time taken 0:00:00.769309
+28-Apr-24 01:22:07 - Transforming hotel_types_ into csv format
+28-Apr-24 01:22:08 - +-------------+-------------------+
+|hotel_type_id|               name|
++-------------+-------------------+
+|          201|         Apartments|
+|          202|Guest accommodation|
++-------------+-------------------+
+only showing top 2 rows
+28-Apr-24 01:22:08 - None
+28-Apr-24 01:22:08 - Transformation of hotel_types_ completed, time taken 0:00:00.688350
+28-Apr-24 01:22:08 - Transforming chain_types_ into csv format
+28-Apr-24 01:22:08 - Error occured while transforming file, chain_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 01:22:09 - Stopping spark sesion
+28-Apr-24 01:22:09 - Transformation completed, time taken 0:00:27.575732
+28-Apr-24 01:22:09 - Done. Returned value was: None
+28-Apr-24 01:22:09 - ::group::Post task execution logs
+28-Apr-24 01:22:09 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=transform_hotel_api_data_task, execution_date=20240428T012130, start_date=20240428T012141, end_date=20240428T012209
+28-Apr-24 16:11:08 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+28-Apr-24 16:11:08 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+28-Apr-24 16:11:08 - JSON input directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/json_data/2024-04-28
+28-Apr-24 16:11:08 - CSV Data directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/csv_data/2024-04-28
+28-Apr-24 16:11:20 - Transform Spark session is created, processing further
+28-Apr-24 16:11:20 - Transforming district_ into csv format
+28-Apr-24 16:11:33 - +--------+-------+-----------+----------------+---------------+--------+---------+
+| city_id|country|district_id|        latitude|      longitude|    name|nr_hotels|
++--------+-------+-----------+----------------+---------------+--------+---------+
+|-1456928|     fr|          1|48.8630297608954|2.3399184771677|1st arr.|      261|
+|-1456928|     fr|          2|48.8678666848111|2.3460338586984|2nd arr.|      456|
++--------+-------+-----------+----------------+---------------+--------+---------+
+only showing top 2 rows
+28-Apr-24 16:11:33 - None
+28-Apr-24 16:11:33 - City id column found in district_
+28-Apr-24 16:11:34 - Transformation of district_ completed, time taken 0:00:14.123993
+28-Apr-24 16:11:34 - Transforming room_types_ into csv format
+28-Apr-24 16:11:35 - +------------------+------------+
+|              name|room_type_id|
++------------------+------------+
+|         Apartment|           1|
+|Presidential Suite|           2|
++------------------+------------+
+only showing top 2 rows
+28-Apr-24 16:11:35 - None
+28-Apr-24 16:11:35 - Transformation of room_types_ completed, time taken 0:00:01.103154
+28-Apr-24 16:11:35 - Transforming room_facility_types_ into csv format
+28-Apr-24 16:11:36 - +----------------+-------------------+---------------------+
+|facility_type_id|               name|room_facility_type_id|
++----------------+-------------------+---------------------+
+|               7|   Tea/Coffee maker|                    1|
+|               3|Internet facilities|                    2|
++----------------+-------------------+---------------------+
+only showing top 2 rows
+28-Apr-24 16:11:36 - None
+28-Apr-24 16:11:36 - Transformation of room_facility_types_ completed, time taken 0:00:00.954739
+28-Apr-24 16:11:36 - Transforming regions_ into csv format
+28-Apr-24 16:11:37 - Error occured while transforming file, regions_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 16:11:37 - Transforming hotels_ into csv format
+28-Apr-24 16:11:37 - Error occured while transforming file, hotels_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 16:11:37 - Transforming cities_ into csv format
+28-Apr-24 16:11:39 - +--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+| city_id|country|        latitude|       longitude|             name|nr_hotels|timezone_name|timezone_offset|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+|-3881514|     pk|33.3194007873535|73.2596969604492|             Kary|        0| Asia/Karachi|              5|
+|-3881466|     pk|34.0208015441895|71.5916976928711|Sarāj Malik Wazīr|        0| Asia/Karachi|              5|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+only showing top 2 rows
+28-Apr-24 16:11:39 - None
+28-Apr-24 16:11:39 - City id column found in cities_
+28-Apr-24 16:11:39 - Transformation of cities_ completed, time taken 0:00:01.427906
+28-Apr-24 16:11:39 - Transforming facility_types_ into csv format
+28-Apr-24 16:11:40 - +----------------+----------+
+|facility_type_id|      name|
++----------------+----------+
+|               1|   General|
+|               2|Activities|
++----------------+----------+
+only showing top 2 rows
+28-Apr-24 16:11:40 - None
+28-Apr-24 16:11:40 - Transformation of facility_types_ completed, time taken 0:00:00.865919
+28-Apr-24 16:11:40 - Transforming country_ into csv format
+28-Apr-24 16:11:41 - +-----------+-------+--------------------+
+|       area|country|                name|
++-----------+-------+--------------------+
+|     Europe|     ad|             Andorra|
+|Middle East|     ae|United Arab Emirates|
++-----------+-------+--------------------+
+only showing top 2 rows
+28-Apr-24 16:11:41 - None
+28-Apr-24 16:11:41 - Transformation of country_ completed, time taken 0:00:00.927528
+28-Apr-24 16:11:41 - Transforming payment_types_ into csv format
+28-Apr-24 16:11:41 - Error occured while transforming file, payment_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 16:11:41 - Transforming hotel_facility_types_ into csv format
+28-Apr-24 16:11:42 - +----------------+----------------------+----------+
+|facility_type_id|hotel_facility_type_id|      name|
++----------------+----------------------+----------+
+|               1|                     2|   Parking|
+|               7|                     3|Restaurant|
++----------------+----------------------+----------+
+only showing top 2 rows
+28-Apr-24 16:11:42 - None
+28-Apr-24 16:11:42 - Transformation of hotel_facility_types_ completed, time taken 0:00:00.762219
+28-Apr-24 16:11:42 - Transforming hotel_types_ into csv format
+28-Apr-24 16:11:42 - +-------------+-------------------+
+|hotel_type_id|               name|
++-------------+-------------------+
+|          201|         Apartments|
+|          202|Guest accommodation|
++-------------+-------------------+
+only showing top 2 rows
+28-Apr-24 16:11:42 - None
+28-Apr-24 16:11:42 - Transformation of hotel_types_ completed, time taken 0:00:00.686847
+28-Apr-24 16:11:42 - Transforming chain_types_ into csv format
+28-Apr-24 16:11:43 - Error occured while transforming file, chain_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 16:11:44 - Stopping spark sesion
+28-Apr-24 16:11:44 - Transformation completed, time taken 0:00:35.519688
+28-Apr-24 16:11:44 - Done. Returned value was: None
+28-Apr-24 16:11:44 - ::group::Post task execution logs
+28-Apr-24 16:11:44 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=transform_hotel_api_data_task, execution_date=20240428T161057, start_date=20240428T161108, end_date=20240428T161144
+28-Apr-24 16:14:22 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+28-Apr-24 16:14:22 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+28-Apr-24 16:14:22 - JSON input directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/json_data/2024-04-28
+28-Apr-24 16:14:22 - CSV Data directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/csv_data/2024-04-28
+28-Apr-24 16:14:28 - Transform Spark session is created, processing further
+28-Apr-24 16:14:28 - Transforming district_ into csv format
+28-Apr-24 16:14:39 - +--------+-------+-----------+----------------+---------------+--------+---------+
+| city_id|country|district_id|        latitude|      longitude|    name|nr_hotels|
++--------+-------+-----------+----------------+---------------+--------+---------+
+|-1456928|     fr|          1|48.8630297608954|2.3399184771677|1st arr.|      261|
+|-1456928|     fr|          2|48.8678666848111|2.3460338586984|2nd arr.|      456|
++--------+-------+-----------+----------------+---------------+--------+---------+
+only showing top 2 rows
+28-Apr-24 16:14:39 - None
+28-Apr-24 16:14:39 - City id column found in district_
+28-Apr-24 16:14:40 - Transformation of district_ completed, time taken 0:00:11.611711
+28-Apr-24 16:14:40 - Transforming room_types_ into csv format
+28-Apr-24 16:14:41 - +------------------+------------+
+|              name|room_type_id|
++------------------+------------+
+|         Apartment|           1|
+|Presidential Suite|           2|
++------------------+------------+
+only showing top 2 rows
+28-Apr-24 16:14:41 - None
+28-Apr-24 16:14:41 - Transformation of room_types_ completed, time taken 0:00:00.873615
+28-Apr-24 16:14:41 - Transforming room_facility_types_ into csv format
+28-Apr-24 16:14:42 - +----------------+-------------------+---------------------+
+|facility_type_id|               name|room_facility_type_id|
++----------------+-------------------+---------------------+
+|               7|   Tea/Coffee maker|                    1|
+|               3|Internet facilities|                    2|
++----------------+-------------------+---------------------+
+only showing top 2 rows
+28-Apr-24 16:14:42 - None
+28-Apr-24 16:14:42 - Transformation of room_facility_types_ completed, time taken 0:00:01.082972
+28-Apr-24 16:14:42 - Transforming regions_ into csv format
+28-Apr-24 16:14:43 - Error occured while transforming file, regions_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 16:14:43 - Transforming hotels_ into csv format
+28-Apr-24 16:14:43 - Error occured while transforming file, hotels_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 16:14:43 - Transforming cities_ into csv format
+28-Apr-24 16:14:44 - +--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+| city_id|country|        latitude|       longitude|             name|nr_hotels|timezone_name|timezone_offset|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+|-3881514|     pk|33.3194007873535|73.2596969604492|             Kary|        0| Asia/Karachi|              5|
+|-3881466|     pk|34.0208015441895|71.5916976928711|Sarāj Malik Wazīr|        0| Asia/Karachi|              5|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+only showing top 2 rows
+28-Apr-24 16:14:44 - None
+28-Apr-24 16:14:44 - City id column found in cities_
+28-Apr-24 16:14:45 - Transformation of cities_ completed, time taken 0:00:01.246381
+28-Apr-24 16:14:45 - Transforming facility_types_ into csv format
+28-Apr-24 16:14:45 - +----------------+----------+
+|facility_type_id|      name|
++----------------+----------+
+|               1|   General|
+|               2|Activities|
++----------------+----------+
+only showing top 2 rows
+28-Apr-24 16:14:45 - None
+28-Apr-24 16:14:45 - Transformation of facility_types_ completed, time taken 0:00:00.811228
+28-Apr-24 16:14:45 - Transforming country_ into csv format
+28-Apr-24 16:14:46 - +-----------+-------+--------------------+
+|       area|country|                name|
++-----------+-------+--------------------+
+|     Europe|     ad|             Andorra|
+|Middle East|     ae|United Arab Emirates|
++-----------+-------+--------------------+
+only showing top 2 rows
+28-Apr-24 16:14:46 - None
+28-Apr-24 16:14:46 - Transformation of country_ completed, time taken 0:00:00.854553
+28-Apr-24 16:14:46 - Transforming payment_types_ into csv format
+28-Apr-24 16:14:47 - Error occured while transforming file, payment_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 16:14:47 - Transforming hotel_facility_types_ into csv format
+28-Apr-24 16:14:47 - +----------------+----------------------+----------+
+|facility_type_id|hotel_facility_type_id|      name|
++----------------+----------------------+----------+
+|               1|                     2|   Parking|
+|               7|                     3|Restaurant|
++----------------+----------------------+----------+
+only showing top 2 rows
+28-Apr-24 16:14:47 - None
+28-Apr-24 16:14:47 - Transformation of hotel_facility_types_ completed, time taken 0:00:00.795939
+28-Apr-24 16:14:47 - Transforming hotel_types_ into csv format
+28-Apr-24 16:14:48 - +-------------+-------------------+
+|hotel_type_id|               name|
++-------------+-------------------+
+|          201|         Apartments|
+|          202|Guest accommodation|
++-------------+-------------------+
+only showing top 2 rows
+28-Apr-24 16:14:48 - None
+28-Apr-24 16:14:48 - Transformation of hotel_types_ completed, time taken 0:00:00.461212
+28-Apr-24 16:14:48 - Transforming chain_types_ into csv format
+28-Apr-24 16:14:48 - Error occured while transforming file, chain_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 16:14:49 - Stopping spark sesion
+28-Apr-24 16:14:49 - Transformation completed, time taken 0:00:26.887254
+28-Apr-24 16:14:49 - Done. Returned value was: None
+28-Apr-24 16:14:49 - ::group::Post task execution logs
+28-Apr-24 16:14:49 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=transform_hotel_api_data_task, execution_date=20240428T161411, start_date=20240428T161422, end_date=20240428T161449
+28-Apr-24 16:20:43 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+28-Apr-24 16:20:43 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+28-Apr-24 16:20:43 - JSON input directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/json_data/2024-04-28
+28-Apr-24 16:20:43 - CSV Data directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/csv_data/2024-04-28
+28-Apr-24 16:20:49 - Transform Spark session is created, processing further
+28-Apr-24 16:20:49 - Transforming district_ into csv format
+28-Apr-24 16:20:59 - +--------+-------+-----------+----------------+---------------+--------+---------+
+| city_id|country|district_id|        latitude|      longitude|    name|nr_hotels|
++--------+-------+-----------+----------------+---------------+--------+---------+
+|-1456928|     fr|          1|48.8630297608954|2.3399184771677|1st arr.|      261|
+|-1456928|     fr|          2|48.8678666848111|2.3460338586984|2nd arr.|      456|
++--------+-------+-----------+----------------+---------------+--------+---------+
+only showing top 2 rows
+28-Apr-24 16:20:59 - None
+28-Apr-24 16:20:59 - City id column found in district_
+28-Apr-24 16:21:00 - Transformation of district_ completed, time taken 0:00:10.796213
+28-Apr-24 16:21:00 - Transforming room_types_ into csv format
+28-Apr-24 16:21:01 - +------------------+------------+
+|              name|room_type_id|
++------------------+------------+
+|         Apartment|           1|
+|Presidential Suite|           2|
++------------------+------------+
+only showing top 2 rows
+28-Apr-24 16:21:01 - None
+28-Apr-24 16:21:01 - Transformation of room_types_ completed, time taken 0:00:00.920947
+28-Apr-24 16:21:01 - Transforming room_facility_types_ into csv format
+28-Apr-24 16:21:02 - +----------------+-------------------+---------------------+
+|facility_type_id|               name|room_facility_type_id|
++----------------+-------------------+---------------------+
+|               7|   Tea/Coffee maker|                    1|
+|               3|Internet facilities|                    2|
++----------------+-------------------+---------------------+
+only showing top 2 rows
+28-Apr-24 16:21:02 - None
+28-Apr-24 16:21:02 - Transformation of room_facility_types_ completed, time taken 0:00:01.144278
+28-Apr-24 16:21:02 - Transforming regions_ into csv format
+28-Apr-24 16:21:03 - Error occured while transforming file, regions_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 16:21:03 - Transforming hotels_ into csv format
+28-Apr-24 16:21:03 - Error occured while transforming file, hotels_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 16:21:03 - Transforming cities_ into csv format
+28-Apr-24 16:21:04 - +--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+| city_id|country|        latitude|       longitude|             name|nr_hotels|timezone_name|timezone_offset|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+|-3881514|     pk|33.3194007873535|73.2596969604492|             Kary|        0| Asia/Karachi|              5|
+|-3881466|     pk|34.0208015441895|71.5916976928711|Sarāj Malik Wazīr|        0| Asia/Karachi|              5|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+only showing top 2 rows
+28-Apr-24 16:21:04 - None
+28-Apr-24 16:21:04 - City id column found in cities_
+28-Apr-24 16:21:05 - Transformation of cities_ completed, time taken 0:00:01.524838
+28-Apr-24 16:21:05 - Transforming facility_types_ into csv format
+28-Apr-24 16:21:05 - +----------------+----------+
+|facility_type_id|      name|
++----------------+----------+
+|               1|   General|
+|               2|Activities|
++----------------+----------+
+only showing top 2 rows
+28-Apr-24 16:21:05 - None
+28-Apr-24 16:21:05 - Transformation of facility_types_ completed, time taken 0:00:00.718760
+28-Apr-24 16:21:05 - Transforming country_ into csv format
+28-Apr-24 16:21:06 - +-----------+-------+--------------------+
+|       area|country|                name|
++-----------+-------+--------------------+
+|     Europe|     ad|             Andorra|
+|Middle East|     ae|United Arab Emirates|
++-----------+-------+--------------------+
+only showing top 2 rows
+28-Apr-24 16:21:06 - None
+28-Apr-24 16:21:06 - Transformation of country_ completed, time taken 0:00:00.615809
+28-Apr-24 16:21:06 - Transforming payment_types_ into csv format
+28-Apr-24 16:21:06 - Error occured while transforming file, payment_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 16:21:06 - Transforming hotel_facility_types_ into csv format
+28-Apr-24 16:21:07 - +----------------+----------------------+----------+
+|facility_type_id|hotel_facility_type_id|      name|
++----------------+----------------------+----------+
+|               1|                     2|   Parking|
+|               7|                     3|Restaurant|
++----------------+----------------------+----------+
+only showing top 2 rows
+28-Apr-24 16:21:07 - None
+28-Apr-24 16:21:07 - Transformation of hotel_facility_types_ completed, time taken 0:00:00.581258
+28-Apr-24 16:21:07 - Transforming hotel_types_ into csv format
+28-Apr-24 16:21:07 - +-------------+-------------------+
+|hotel_type_id|               name|
++-------------+-------------------+
+|          201|         Apartments|
+|          202|Guest accommodation|
++-------------+-------------------+
+only showing top 2 rows
+28-Apr-24 16:21:07 - None
+28-Apr-24 16:21:08 - Transformation of hotel_types_ completed, time taken 0:00:00.626789
+28-Apr-24 16:21:08 - Transforming chain_types_ into csv format
+28-Apr-24 16:21:08 - Error occured while transforming file, chain_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 16:21:08 - Stopping spark sesion
+28-Apr-24 16:21:08 - Transformation completed, time taken 0:00:25.783667
+28-Apr-24 16:21:08 - Done. Returned value was: None
+28-Apr-24 16:21:08 - ::group::Post task execution logs
+28-Apr-24 16:21:08 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=transform_hotel_api_data_task, execution_date=20240428T162030, start_date=20240428T162042, end_date=20240428T162108
+28-Apr-24 18:43:58 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+28-Apr-24 18:43:58 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+28-Apr-24 18:43:58 - JSON input directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/json_data/2024-04-28
+28-Apr-24 18:43:58 - CSV Data directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/csv_data/2024-04-28
+28-Apr-24 18:44:05 - Transform Spark session is created, processing further
+28-Apr-24 18:44:05 - Transforming district_ into csv format
+28-Apr-24 18:44:16 - +--------+-------+-----------+----------------+---------------+--------+---------+
+| city_id|country|district_id|        latitude|      longitude|    name|nr_hotels|
++--------+-------+-----------+----------------+---------------+--------+---------+
+|-1456928|     fr|          1|48.8630297608954|2.3399184771677|1st arr.|      261|
+|-1456928|     fr|          2|48.8678666848111|2.3460338586984|2nd arr.|      456|
++--------+-------+-----------+----------------+---------------+--------+---------+
+only showing top 2 rows
+28-Apr-24 18:44:16 - None
+28-Apr-24 18:44:16 - City id column found in district_
+28-Apr-24 18:44:17 - Transformation of district_ completed, time taken 0:00:11.587507
+28-Apr-24 18:44:17 - Transforming room_types_ into csv format
+28-Apr-24 18:44:17 - +------------------+------------+
+|              name|room_type_id|
++------------------+------------+
+|         Apartment|           1|
+|Presidential Suite|           2|
++------------------+------------+
+only showing top 2 rows
+28-Apr-24 18:44:17 - None
+28-Apr-24 18:44:17 - Transformation of room_types_ completed, time taken 0:00:00.854485
+28-Apr-24 18:44:17 - Transforming room_facility_types_ into csv format
+28-Apr-24 18:44:18 - +----------------+-------------------+---------------------+
+|facility_type_id|               name|room_facility_type_id|
++----------------+-------------------+---------------------+
+|               7|   Tea/Coffee maker|                    1|
+|               3|Internet facilities|                    2|
++----------------+-------------------+---------------------+
+only showing top 2 rows
+28-Apr-24 18:44:18 - None
+28-Apr-24 18:44:18 - Transformation of room_facility_types_ completed, time taken 0:00:00.990262
+28-Apr-24 18:44:18 - Transforming regions_ into csv format
+28-Apr-24 18:44:19 - Error occured while transforming file, regions_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 18:44:19 - Transforming hotels_ into csv format
+28-Apr-24 18:44:20 - Error occured while transforming file, hotels_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 18:44:20 - Transforming cities_ into csv format
+28-Apr-24 18:44:21 - +--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+| city_id|country|        latitude|       longitude|             name|nr_hotels|timezone_name|timezone_offset|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+|-3881514|     pk|33.3194007873535|73.2596969604492|             Kary|        0| Asia/Karachi|              5|
+|-3881466|     pk|34.0208015441895|71.5916976928711|Sarāj Malik Wazīr|        0| Asia/Karachi|              5|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+only showing top 2 rows
+28-Apr-24 18:44:21 - None
+28-Apr-24 18:44:21 - City id column found in cities_
+28-Apr-24 18:44:21 - Transformation of cities_ completed, time taken 0:00:01.279546
+28-Apr-24 18:44:21 - Transforming facility_types_ into csv format
+28-Apr-24 18:44:21 - +----------------+----------+
+|facility_type_id|      name|
++----------------+----------+
+|               1|   General|
+|               2|Activities|
++----------------+----------+
+only showing top 2 rows
+28-Apr-24 18:44:21 - None
+28-Apr-24 18:44:22 - Transformation of facility_types_ completed, time taken 0:00:00.708772
+28-Apr-24 18:44:22 - Transforming country_ into csv format
+28-Apr-24 18:44:22 - +-----------+-------+--------------------+
+|       area|country|                name|
++-----------+-------+--------------------+
+|     Europe|     ad|             Andorra|
+|Middle East|     ae|United Arab Emirates|
++-----------+-------+--------------------+
+only showing top 2 rows
+28-Apr-24 18:44:22 - None
+28-Apr-24 18:44:22 - Transformation of country_ completed, time taken 0:00:00.749458
+28-Apr-24 18:44:22 - Transforming payment_types_ into csv format
+28-Apr-24 18:44:23 - Error occured while transforming file, payment_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 18:44:23 - Transforming hotel_facility_types_ into csv format
+28-Apr-24 18:44:23 - +----------------+----------------------+----------+
+|facility_type_id|hotel_facility_type_id|      name|
++----------------+----------------------+----------+
+|               1|                     2|   Parking|
+|               7|                     3|Restaurant|
++----------------+----------------------+----------+
+only showing top 2 rows
+28-Apr-24 18:44:23 - None
+28-Apr-24 18:44:23 - Transformation of hotel_facility_types_ completed, time taken 0:00:00.533709
+28-Apr-24 18:44:23 - Transforming hotel_types_ into csv format
+28-Apr-24 18:44:24 - +-------------+-------------------+
+|hotel_type_id|               name|
++-------------+-------------------+
+|          201|         Apartments|
+|          202|Guest accommodation|
++-------------+-------------------+
+only showing top 2 rows
+28-Apr-24 18:44:24 - None
+28-Apr-24 18:44:24 - Transformation of hotel_types_ completed, time taken 0:00:00.609590
+28-Apr-24 18:44:24 - Transforming chain_types_ into csv format
+28-Apr-24 18:44:24 - Error occured while transforming file, chain_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 18:44:25 - Stopping spark sesion
+28-Apr-24 18:44:25 - Transformation completed, time taken 0:00:26.985124
+28-Apr-24 18:44:25 - Done. Returned value was: None
+28-Apr-24 18:44:25 - ::group::Post task execution logs
+28-Apr-24 18:44:25 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=transform_hotel_api_data_task, execution_date=20240428T184346, start_date=20240428T184357, end_date=20240428T184425
+28-Apr-24 18:46:16 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+28-Apr-24 18:46:16 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+28-Apr-24 18:46:16 - JSON input directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/json_data/2024-04-28
+28-Apr-24 18:46:16 - CSV Data directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/csv_data/2024-04-28
+28-Apr-24 18:46:23 - Transform Spark session is created, processing further
+28-Apr-24 18:46:23 - Transforming district_ into csv format
+28-Apr-24 18:46:33 - +--------+-------+-----------+----------------+---------------+--------+---------+
+| city_id|country|district_id|        latitude|      longitude|    name|nr_hotels|
++--------+-------+-----------+----------------+---------------+--------+---------+
+|-1456928|     fr|          1|48.8630297608954|2.3399184771677|1st arr.|      261|
+|-1456928|     fr|          2|48.8678666848111|2.3460338586984|2nd arr.|      456|
++--------+-------+-----------+----------------+---------------+--------+---------+
+only showing top 2 rows
+28-Apr-24 18:46:33 - None
+28-Apr-24 18:46:33 - City id column found in district_
+28-Apr-24 18:46:34 - Transformation of district_ completed, time taken 0:00:11.187736
+28-Apr-24 18:46:34 - Transforming room_types_ into csv format
+28-Apr-24 18:46:35 - +------------------+------------+
+|              name|room_type_id|
++------------------+------------+
+|         Apartment|           1|
+|Presidential Suite|           2|
++------------------+------------+
+only showing top 2 rows
+28-Apr-24 18:46:35 - None
+28-Apr-24 18:46:35 - Transformation of room_types_ completed, time taken 0:00:00.878105
+28-Apr-24 18:46:35 - Transforming room_facility_types_ into csv format
+28-Apr-24 18:46:36 - +----------------+-------------------+---------------------+
+|facility_type_id|               name|room_facility_type_id|
++----------------+-------------------+---------------------+
+|               7|   Tea/Coffee maker|                    1|
+|               3|Internet facilities|                    2|
++----------------+-------------------+---------------------+
+only showing top 2 rows
+28-Apr-24 18:46:36 - None
+28-Apr-24 18:46:36 - Transformation of room_facility_types_ completed, time taken 0:00:00.928694
+28-Apr-24 18:46:36 - Transforming regions_ into csv format
+28-Apr-24 18:46:36 - Error occured while transforming file, regions_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 18:46:36 - Transforming hotels_ into csv format
+28-Apr-24 18:46:37 - Error occured while transforming file, hotels_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 18:46:37 - Transforming cities_ into csv format
+28-Apr-24 18:46:38 - +--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+| city_id|country|        latitude|       longitude|             name|nr_hotels|timezone_name|timezone_offset|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+|-3881514|     pk|33.3194007873535|73.2596969604492|             Kary|        0| Asia/Karachi|              5|
+|-3881466|     pk|34.0208015441895|71.5916976928711|Sarāj Malik Wazīr|        0| Asia/Karachi|              5|
++--------+-------+----------------+----------------+-----------------+---------+-------------+---------------+
+only showing top 2 rows
+28-Apr-24 18:46:38 - None
+28-Apr-24 18:46:38 - City id column found in cities_
+28-Apr-24 18:46:38 - Transformation of cities_ completed, time taken 0:00:01.381936
+28-Apr-24 18:46:38 - Transforming facility_types_ into csv format
+28-Apr-24 18:46:39 - +----------------+----------+
+|facility_type_id|      name|
++----------------+----------+
+|               1|   General|
+|               2|Activities|
++----------------+----------+
+only showing top 2 rows
+28-Apr-24 18:46:39 - None
+28-Apr-24 18:46:39 - Transformation of facility_types_ completed, time taken 0:00:00.869120
+28-Apr-24 18:46:39 - Transforming country_ into csv format
+28-Apr-24 18:46:40 - +-----------+-------+--------------------+
+|       area|country|                name|
++-----------+-------+--------------------+
+|     Europe|     ad|             Andorra|
+|Middle East|     ae|United Arab Emirates|
++-----------+-------+--------------------+
+only showing top 2 rows
+28-Apr-24 18:46:40 - None
+28-Apr-24 18:46:40 - Transformation of country_ completed, time taken 0:00:00.512115
+28-Apr-24 18:46:40 - Transforming payment_types_ into csv format
+28-Apr-24 18:46:40 - Error occured while transforming file, payment_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 18:46:40 - Transforming hotel_facility_types_ into csv format
+28-Apr-24 18:46:41 - +----------------+----------------------+----------+
+|facility_type_id|hotel_facility_type_id|      name|
++----------------+----------------------+----------+
+|               1|                     2|   Parking|
+|               7|                     3|Restaurant|
++----------------+----------------------+----------+
+only showing top 2 rows
+28-Apr-24 18:46:41 - None
+28-Apr-24 18:46:41 - Transformation of hotel_facility_types_ completed, time taken 0:00:00.669200
+28-Apr-24 18:46:41 - Transforming hotel_types_ into csv format
+28-Apr-24 18:46:41 - +-------------+-------------------+
+|hotel_type_id|               name|
++-------------+-------------------+
+|          201|         Apartments|
+|          202|Guest accommodation|
++-------------+-------------------+
+only showing top 2 rows
+28-Apr-24 18:46:41 - None
+28-Apr-24 18:46:42 - Transformation of hotel_types_ completed, time taken 0:00:00.694650
+28-Apr-24 18:46:42 - Transforming chain_types_ into csv format
+28-Apr-24 18:46:42 - Error occured while transforming file, chain_types_ with spark, must be some encoding issue, trying xTransform appraoch
+28-Apr-24 18:46:42 - Stopping spark sesion
+28-Apr-24 18:46:42 - Transformation completed, time taken 0:00:25.915247
+28-Apr-24 18:46:42 - Done. Returned value was: None
+28-Apr-24 18:46:42 - ::group::Post task execution logs
+28-Apr-24 18:46:42 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=transform_hotel_api_data_task, execution_date=20240428T184605, start_date=20240428T184616, end_date=20240428T184642

@@ -1,0 +1,1001 @@
+region_id,name,country,region_type
+592,Capital Federal,ar,other
+595,Entre RÃ­os,ar,province
+596,Jujuy,ar,province
+597,Mendoza Province,ar,province
+598,RÃ­o Negro,ar,province
+599,Salta Province,ar,province
+600,San Juan Province,ar,province
+601,San Luis Province,ar,province
+602,Santiago del Estero Province,ar,province
+603,Tierra del Fuego,ar,province
+606,Styria,at,province
+607,Tyrol,at,province
+612,New South Wales,au,province
+613,Northern Territory,au,province
+614,Queensland,au,province
+616,Tasmania,au,province
+617,Victoria,au,province
+621,Brussels Region,be,province
+622,East-Flanders,be,province
+623,Flemish Brabant,be,province
+624,Hainaut Province,be,province
+625,Liege Province,be,province
+626,Limburg,be,province
+627,Belgium Luxembourg,be,province
+628,Namur Province,be,province
+629,Walloon Brabant,be,province
+630,West-Flanders,be,province
+632,Ardennes Belge,be,free_region
+633,Belgium Coast,be,other
+642,Alagoas,br,province
+643,Amazonas,br,province
+644,Bahia,br,province
+645,CearÃ¡,br,province
+646,Distrito Federal,br,province
+647,EspÃ­rito Santo,br,province
+648,Mato Grosso do Sul,br,province
+649,Minas Gerais,br,province
+650,Parana,br,province
+651,Pernambuco,br,province
+652,Rio de Janeiro State,br,province
+653,Rio Grande do Norte,br,province
+654,Rio Grande do Sul,br,province
+655,Santa Catarina,br,province
+656,Sao Paulo State,br,province
+657,Sergipe,br,province
+658,British Columbia,ca,province
+659,Ontario,ca,province
+660,Quebec,ca,province
+661,Nova Scotia,ca,province
+663,Bernese Oberland,ch,free_region
+664,Central Switzerland,ch,free_region
+665,East Switzerland,li,free_region
+666,Canton of Fribourg,ch,province
+669,Lake Geneva / Vaud,ch,free_region
+670,Canton of Ticino,ch,province
+671,Canton of Valais,ch,province
+672,Canton of Zurich,ch,province
+673,Metropolitan Region,cl,province
+674,Easter Island,cl,island
+675,Anhui,cn,province
+676,Chongqing Area,cn,province
+677,Fujian,cn,province
+678,Guangdong,cn,province
+679,Guangxi,cn,province
+680,Hainan,cn,province
+681,Henan,cn,province
+682,Hubei,cn,province
+683,Jiangsu,cn,province
+684,Tianjin Area,cn,province
+685,Shaanxi,cn,province
+686,Shandong,cn,province
+687,Puntarenas,cr,province
+693,Prague Region,cz,other
+696,Hradec Kralove,cz,province
+697,Karlovy Vary Region,cz,province
+698,Central Bohemia,cz,province
+699,Baden-WÃ¼rttemberg,de,province
+700,Bavaria,de,province
+702,Brandenburg,de,province
+705,Hessen,de,province
+706,Lower-Saxony,de,province
+707,Mecklenburg-Pomerania,de,province
+708,German Mosel,de,free_region
+709,North Rhine-Westphalia,de,province
+710,Rhineland-Palatinate,de,province
+711,Saarland,de,province
+713,Saxony-Anhalt,de,province
+714,Schleswig-Holstein,de,province
+715,Thuringia,de,province
+716,Funen,dk,island
+717,Nordjylland,dk,province
+718,Vestjylland,dk,free_region
+722,Galapagos,ec,province
+723,Sierra,ec,free_region
+725,AndalucÃ­a,es,province
+726,Aragon,es,province
+727,Asturias,es,province
+728,Balearic Islands,es,province
+729,Basque Country,es,province
+730,Canary Islands,es,province
+731,Cantabria,es,province
+732,Castilla-La Mancha,es,province
+733,Castile and Leon,es,province
+734,Catalonia,es,province
+735,Galicia,es,province
+741,Alava Province,es,free_region
+742,Alicante Province,es,free_region
+744,Avila Province,es,free_region
+745,Barcelona Province,es,free_region
+746,Burgos Province,es,free_region
+747,Cadiz Province,es,free_region
+749,Ciudad Real Province,es,free_region
+750,Cordoba Province,es,free_region
+752,Fuerteventura,es,island
+753,Girona Province,es,free_region
+754,Gran Canaria,es,island
+755,Granada Province,es,free_region
+756,Guadalajara Province,es,free_region
+757,Guipuzcoa,es,free_region
+758,Huelva Province,es,free_region
+759,JaÃ©n,es,free_region
+760,Lanzarote,es,island
+761,La Rioja,es,province
+762,Province of Leon,es,province
+763,Lleida,es,free_region
+764,Lugo Province,es,free_region
+765,Community of Madrid,es,province
+766,Malaga Province,es,free_region
+767,Majorca,es,island
+768,Murcia,es,province
+769,Navarre,es,province
+770,Ourense,es,free_region
+771,Palencia,es,free_region
+772,Pontevedra Province,es,free_region
+773,Salamanca Province,es,free_region
+774,Seville Province,es,free_region
+775,Soria,es,free_region
+776,Tarragona Province,es,free_region
+777,Tenerife,es,island
+778,Toledo Province,es,free_region
+779,Valencia Province,es,free_region
+780,Valladolid Province,es,free_region
+781,Vizcaya,es,free_region
+782,Provincia de Zamora,es,free_region
+783,Zaragoza Province,es,free_region
+784,Eastern Finland,fi,province
+786,Southern Finland,fi,province
+787,Western Finland,fi,province
+788,Alsace,fr,province
+789,Aquitaine,fr,province
+790,Auvergne,fr,province
+791,Brittany,fr,province
+792,Burgundy,fr,province
+793,Centre,fr,province
+794,Champagne - Ardenne,fr,province
+795,Franche-ComtÃ©,fr,province
+797,Languedoc-Roussillon,fr,province
+798,Limousin,fr,province
+799,Lorraine,fr,province
+801,Midi-PyrÃ©nÃ©es,fr,province
+802,Nord-Pas-de-Calais,fr,province
+803,Pays de la Loire,fr,province
+804,Picardy,fr,province
+806,Provence-Alpes-CÃ´te d'Azur,fr,province
+807,RhÃ´ne-Alps,fr,province
+808,Normandy,fr,province
+809,Attica-Saronic Gulf Islands,gr,free_region
+810,Central Greece,gr,province
+811,Crete,gr,island
+812,Cyclades,gr,province
+813,Dodecanese,gr,province
+815,Evia-Sporades,gr,other
+819,Halkidiki,gr,free_region
+820,Ionian Islands,gr,province
+821,Macedonia,gr,other
+822,Northern Aegean Islands,gr,free_region
+824,Peloponnese (for supply target only),gr,other
+826,Central Hungary,hu,free_region
+827,Western Transdanubia,hu,free_region
+828,Central Transdanubia,hu,free_region
+829,Southern Transdanubia,hu,free_region
+830,Lake Balaton,hu,free_region
+831,Northern Hungary,hu,free_region
+832,Northern Great Plain,hu,free_region
+833,Southern Great Plain,hu,free_region
+835,Bali,id,province
+836,Java,id,free_region
+837,Sulawesi,id,free_region
+838,Kalimantan,id,free_region
+839,Lombok,id,island
+840,Sumatra,id,island
+841,Connacht,ie,free_region
+842,Leinster,ie,free_region
+843,Munster,ie,free_region
+844,Ulster,ie,free_region
+846,Cavan County,ie,province
+847,County Cork,ie,province
+848,Donegal County,ie,province
+849,Dublin County,ie,province
+850,Galway County,ie,province
+851,Kerry,ie,province
+852,Kildare County,ie,province
+853,Mayo,ie,province
+855,Roscommon County,ie,province
+857,Wicklow County,ie,province
+864,Central Zone,in,free_region
+865,East Zone,in,free_region
+866,North Zone,in,free_region
+867,South Zone,in,free_region
+868,Jammu & Kashmir Ski,in,free_region
+870,"Punjab, North",in,other
+871,"Uttaranchal, North",in,other
+872,"Haryana, North",in,other
+873,"Rajasthan, North",in,other
+874,"Uttar Pradesh, North",in,other
+875,Bihar,in,province
+876,"Jharkhand, East",in,other
+877,"West Bengal, East",in,other
+878,"Meghalaya, East",in,other
+879,"Tripura, East",in,other
+880,Mizoram,in,province
+881,Manipur,in,province
+882,Nagaland,in,province
+883,"Assam, East",in,other
+884,Arunachal Pradesh,in,province
+885,"Gujarat, Central",in,other
+886,"Bhopal, Central",in,other
+887,Chhattisgarh,in,province
+888,"Orissa, Central",in,other
+889,"Maharashtra, Central",in,other
+890,Goa South (deleted),in,other
+891,"Karnataka, South",in,other
+892,"Andhra Pradesh, South",in,other
+893,"Mahe, South",in,other
+894,"Kerala, South",in,other
+895,"Tamilnadu, South",in,other
+897,Calabria,it,province
+898,Campania,it,province
+899,Emilia-Romagna,it,province
+900,Friuli Venezia Giulia,it,province
+902,Lazio,it,province
+903,Liguria,it,province
+904,Lombardy,it,province
+905,Marche,it,province
+906,Piedmont,it,province
+907,Apulia,it,province
+908,Sardinia,it,province
+909,Sicily,it,province
+910,Tuscany,it,province
+911,Trentino Alto Adige,it,province
+912,Umbria,it,province
+913,Valle d'Aosta,it,province
+914,Veneto,it,province
+922,Koto/Edogawa Ku,jp,other
+925,Tohoku,jp,free_region
+932,Kanto,jp,free_region
+940,Koshinetsu,jp,free_region
+947,Tokai,jp,free_region
+952,Kinki,jp,free_region
+959,Chugoku,jp,free_region
+965,Shikoku,jp,free_region
+970,Kyushu,jp,free_region
+981,Gozo,mt,island
+991,Johor,my,province
+992,Kedah,my,province
+994,Melaka,my,province
+995,Pahang,my,province
+996,Penang,my,province
+998,Sabah,my,province
+999,Sarawak,my,province
+1000,Selangor,my,province
+1002,Terengganu,my,province
+1003,Drenthe,nl,province
+1004,Flevoland,nl,province
+1005,Friesland,nl,province
+1006,Gelderland,nl,province
+1007,Groningen Province,nl,province
+1008,Limburg,nl,province
+1009,Noord-Brabant,nl,province
+1010,Noord-Holland,nl,province
+1011,Overijssel,nl,province
+1012,Utrecht Province,nl,province
+1013,Zeeland,nl,province
+1014,Zuid-Holland,nl,province
+1015,Ameland,nl,island
+1016,Dutch Coast,nl,free_region
+1017,Het Gooi,nl,free_region
+1018,Frisian lakes,nl,free_region
+1019,IJsselmeer,nl,free_region
+1020,Schiermonnikoog,nl,island
+1021,Schouwen-Duiveland,nl,free_region
+1022,Terschelling,nl,island
+1023,Texel,nl,island
+1024,Twente,nl,free_region
+1025,Veluwe,nl,free_region
+1026,Vlieland,nl,island
+1027,West Frisian Islands,nl,free_region
+1028,Walcheren,nl,free_region
+1029,Zeeuws-Vlaanderen,nl,free_region
+1041,Akershus,no,free_region
+1042,Aust-Agder,no,free_region
+1043,Buskerud,no,free_region
+1044,Hordaland,no,free_region
+1045,Nordland,no,province
+1046,Oppland,no,free_region
+1047,Oslo County,no,province
+1048,Rogaland,no,province
+1049,Sogn og Fjordane,no,free_region
+1050,Telemark,no,free_region
+1051,Vest-Agder,no,free_region
+1053,"Gorkha, Nepal",np,other
+1056,"Lalitpur, Nepal",np,other
+1058,North Island,nz,free_region
+1059,South Island,nz,free_region
+1060,Lima,pe,other
+1061,Luzon,ph,province
+1062,Visayas,ph,province
+1063,Mindanao,ph,province
+1064,Algarve,pt,province
+1073,Dalarna,se,province
+1075,Stockholm county,se,province
+1076,Uppland,se,free_region
+1077,Thailand,th,other
+1082,Hammamet Bay,tn,other
+1083,Aegean Region,tr,province
+1084,Black Sea Region,tr,province
+1085,Central Anatolia Region,tr,province
+1086,East Anatolia Region,tr,province
+1087,Marmara Region,tr,province
+1088,Mediterranean Region Turkey,tr,province
+1089,South Eastern Anatolia Region,tr,province
+1093,Channel Islands,gb,free_region
+1095,Cumbria,gb,province
+1098,Dorset,gb,province
+1100,Lothian,gb,province
+1101,Essex,gb,province
+1103,Hampshire,gb,province
+1106,Isle of Wight,gb,island
+1107,Kent,gb,province
+1108,Lancashire,gb,province
+1114,Northern Ireland,gb,free_region
+1115,Northumberland,gb,province
+1116,Oxfordshire,gb,province
+1117,Scotland,gb,free_region
+1123,Surrey,gb,province
+1124,Sussex Historic County,gb,free_region
+1126,Glamorgan,gb,province
+1127,Wales,gb,free_region
+1128,Warwickshire,gb,province
+1131,Worcestershire,gb,province
+1136,Florida,us,province
+1155,Washington State,us,province
+1161,Eastern Cape,za,province
+1165,Northern Cape,za,province
+1169,Western Cape,za,province
+1170,TEST REGION HAN 1,None,other
+1188,PieterPad,nl,other
+1189,Berlin Federal State,de,province
+1190,Burgenland,at,province
+1191,Carinthia,at,province
+1193,Upper Austria,at,province
+1194,Salzburg,at,province
+1195,Vorarlberg,at,province
+1196,Vienna (state),at,province
+1197,Autoroute Paris - Nantes (A11),fr,other
+1198,South Limburg,nl,free_region
+1199,The Alps,si,other
+1200,Canillo,ad,other
+1201,Andorra la Vella,ad,other
+1202,Encamp,ad,other
+1203,Escaldes-Engordany,ad,other
+1204,La Massana,ad,other
+1205,Ordino,ad,other
+1206,Sant JuliÃ  de LÃ²ria,ad,province
+1209,Abu Dhabi Emirate,ae,other
+1212,CuraÃ§ao,cw,other
+1214,Antigua,ag,island
+1215,Aruba,aw,other
+1216,Barbados Island,bb,other
+1217,Sofia Province ,bg,province
+1218,Varna Province,bg,province
+1219,Blagoevgrad Province ,bg,province
+1220,Brunei-Muara,bn,province
+1221,Beijing Area,cn,province
+1229,Montevideo,uy,province
+1231,Colonia del Sacramento,uy,other
+1232,Punta del Este,uy,other
+1235,Grisons,ch,province
+1239,Lake Lucerne,ch,free_region
+1240,Lake Neuchatel,ch,free_region
+1241,Alajuela,cr,province
+1242,Limon,cr,province
+1243,San JosÃ©,cr,province
+1244,Guanacaste,cr,province
+1245,CamagÃ¼ey Province,cu,province
+1246,Ciego de Ãvila Province,cu,province
+1247,Cienfuegos,cu,province
+1248,Isla de la Juventud,cu,province
+1249,Las Tunas Province,cu,province
+1250,Matanzas,cu,province
+1251,Santiago de Cuba Province,cu,province
+1252,Villa Clara,cu,province
+1253,Ciudad de La Habana Province,cu,province
+1254,HolguÃ­n Province,cu,province
+1255,Sancti SpÃ­ritus,cu,province
+1256,Cyprus Island,cy,other
+1257,Cyprus Government controlled area,cy,other
+1262,Sumava mountains,cz,free_region
+1264,Santo Domingo Province,do,province
+1265,Puerto Plata Province,do,province
+1266,Tungurahua,ec,province
+1267,Guayas,ec,province
+1269,Red Sea Governorate,eg,province
+1270,Harjumaa,ee,province
+1271,Saint George Parish,gd,province
+1272,Saint Andrew Parish,gd,province
+1273,Basse-Terre,gp,province
+1274,Saint BarthÃ©lemy,gp,province
+1275,Grande-Terre,gp,province
+1277,Meath,ie,province
+1278,Portland,jm,province
+1279,Saint James,jm,province
+1280,Westmoreland,jm,province
+1281,Saint Mary,jm,province
+1282,Trelawny,jm,province
+1284,Luang Prabang,la,province
+1285,Vientiane,la,province
+1286,Castries,lc,province
+1287,Clervaux,lu,province
+1288,Diekirch,lu,province
+1289,Echternach,lu,province
+1290,Esch-sur-Alzette,lu,province
+1291,Luxembourg,lu,other
+1292,Mersch,lu,province
+1293,Remich,lu,province
+1294,Vianden,lu,province
+1295,Wiltz,lu,province
+1296,Fort-de-France,mq,province
+1297,Le Marin,mq,province
+1299,South Eastern Malta,mt,other
+1302,Arequipa,pe,province
+1303,Cusco,pe,province
+1304,Piura,pe,province
+1305,Madre de Dios,pe,province
+1306,Lower Silesia,pl,province
+1307,Lesser Poland,pl,province
+1308,Pomerania,pl,province
+1309,Greater Poland,pl,province
+1310,Masovia,pl,province
+1312,Taipei Area,tw,province
+1315,Changhua County,tw,province
+1316,Taoyuan Municipality,tw,province
+1317,Tobago,tt,island
+1318,Trinidad,tt,island
+1319,Port of Spain Province,tt,province
+1320,Sousse,tn,other
+1321,Tawzar,tn,other
+1323,Singapore,sg,other
+1324,Paramaribo,sr,other
+1325,AsunciÃ³n,py,province
+1326,Cordillera,py,province
+1328,Halland,se,province
+1329,Kalmar county,se,province
+1331,ÃstergÃ¶tland,se,province
+1332,SkÃ¥ne,se,province
+1333,Sodermanland,se,province
+1334,VÃ¤rmland,se,province
+1335,VÃ¤stra GÃ¶taland,se,province
+1336,Vastmanland,se,province
+1337,SmÃ¥land,se,free_region
+1340,Phnom Penh Municipality,kh,province
+1341,Siem Reap Province,kh,province
+1342,CÃ³rdoba Province,ar,province
+1343,Misiones,ar,province
+1344,ParaÃ­ba,br,province
+1345,GoiÃ¡s,br,province
+1346,PiauÃ­,br,province
+1347,MaranhÃ£o,br,province
+1348,Antofagasta Region,cl,province
+1349,TarapacÃ¡,cl,province
+1350,BÃ­o BÃ­o,cl,province
+1351,Atacama,cl,province
+1352,Coquimbo Region,cl,province
+1353,Los Lagos,cl,province
+1354,Magallanes,cl,province
+1356,AraucanÃ­a,cl,province
+1357,ValparaÃ­so Region,cl,province
+1358,Ãrhus,dk,other
+1359,Copenhagen,dk,other
+1360,SÃ¸nderjylland,dk,free_region
+1361,Vejle,dk,other
+1362,Albacete Province,es,free_region
+1363,Almeria Province,es,free_region
+1364,A CoruÃ±a,es,free_region
+1366,Val de Marne,fr,free_region
+1367,Puy-de-DÃ´me,fr,free_region
+1370,Evia,gr,province
+1371,Thesprotia,gr,free_region
+1372,Hong Kong,hk,other
+1373,Lantau Island,hk,free_region
+1374,Riau Kepulauan,id,other
+1379,Western Australia,au,province
+1380,South Australia,au,province
+1381,Australian Capital Territory,au,province
+1382,Autoroute Luxembourg - Nice,lu,other
+1383,Corsica,fr,province
+1386,Costa del Garraf,es,free_region
+1387,Costa Brava,es,free_region
+1388,Costa del Maresme,es,free_region
+1389,Costa Dorada,es,free_region
+1390,Azahar Coast,es,free_region
+1391,Valencia Coast,es,free_region
+1392,Costa Blanca,es,free_region
+1393,Costa CÃ¡lida,es,free_region
+1394,Basque Coast,fr,free_region
+1395,Cantabria Coast,es,free_region
+1396,Costa Verde (Asturias),es,free_region
+1397,Altas Estuary,es,free_region
+1398,Artabro Gulf,es,free_region
+1399,Costa de la Muerte,es,free_region
+1400,Bajas Estuary,es,free_region
+1401,Costa de la Luz,es,free_region
+1402,Costa del Sol,es,free_region
+1403,Costa Tropical,es,free_region
+1404,Almeria Coast,es,free_region
+1405,La Palma Island,es,island
+1406,Formentera,es,island
+1408,Ibiza,es,island
+1409,Menorca,es,island
+1413,Auckland Region,nz,province
+1414,Bay of Plenty,nz,province
+1415,Canterbury,nz,province
+1417,Manawatu,nz,province
+1419,Otago,nz,province
+1420,Waikato,nz,province
+1421,Wellington,nz,province
+1423,Abruzzo,it,province
+1424,Jersey,gb,island
+1425,Ile de France,fr,province
+1427,Lake Como,it,free_region
+1428,Lake Garda,it,free_region
+1430,Lago Maggiore - Italy,it,free_region
+1431,Lake Trasimeno,it,free_region
+1432,Castelli Romani,it,free_region
+1433,Elba,it,island
+1434,Capri Island,it,island
+1436,Guernsey,gb,island
+1437,Lake District,gb,free_region
+1438,Dolomites,it,free_region
+1439,Highland,gb,other
+1440,Italian Riviera,it,free_region
+1446,Autoroute Paris - Toulouse (A20),fr,other
+1447,Autoroute Paris - Bordeaux (A10),fr,other
+1448,Autoroute Karlsruhe - Milan,it,other
+1449,Autoroute Kassel - Dresden - Prague,de,other
+1450,Autoroute Frankfurt - Vienna,de,other
+1451,D-day Beaches,fr,free_region
+1453,Mont Blanc Valley,fr,other
+1456,Gulf of Lion,fr,free_region
+1458,Atlantic Coast,fr,free_region
+1459,Baixo Alentejo,pt,free_region
+1460,Estremadura,pt,free_region
+1461,Ribatejo,pt,free_region
+1462,Minho,pt,free_region
+1464,Versilia,it,free_region
+1465,Grosseto Area,it,other
+1466,Chianti,it,free_region
+1467,Massif Central,fr,free_region
+1468,Opal Coast,fr,free_region
+1469,Saxony,de,province
+1470,Bremen,de,province
+1472,German Wine Route,de,other
+1473,Fairy tale Route,de,other
+1474,Castle Route,de,free_region
+1475,Goethe Route,de,other
+1476,Romantic Road,de,free_region
+1477,Black Forest,de,free_region
+1478,AllgÃ¤u,de,free_region
+1479,Eifel,de,free_region
+1480,HunsrÃ¼ck,de,free_region
+1481,Luneburg Heath,de,free_region
+1482,Siebengebirge,de,free_region
+1483,Teutoburg Forest,de,free_region
+1484,Lake Iseo,it,free_region
+1485,Poitou,fr,other
+1486,Gorges du Tarn,fr,free_region
+1487,French Basque Country,fr,free_region
+1488,Harz,de,free_region
+1490,World Heritage Cities,es,other
+1491,Routes of Sefarad,es,other
+1492,Santiago's Route,es,free_region
+1493,The English Route,es,other
+1494,North Route,es,other
+1495,The French Route,es,other
+1496,Green Spain,es,other
+1497,Silver Route,es,other
+1498,Washington Irving,es,other
+1499,Phu Quoc Island,vn,island
+1500,Koh Tao Island,th,island
+1501,Koh Samui,th,island
+1502,Koh Chang,th,island
+1503,Pulau Bintan,id,free_region
+1504,Pulau Batam,id,free_region
+1505,Palawan,ph,island
+1506,Nagarao,ph,island
+1507,RÃ¼gen,de,island
+1508,Reichenau,de,island
+1509,Dominica,dm,other
+1510,Ãle Saint-BarthÃ©lemy,gp,island
+1513,Santorini,gr,island
+1516,Perhentian Islands,my,free_region
+1518,Badajoz Province,es,free_region
+1519,Cuenca Province,es,free_region
+1520,Castellon Province,es,free_region
+1521,Caceres Province,es,free_region
+1522,Extremadura,es,province
+1523,Valencia Community,es,province
+1525,TrÃ¡s-os-Montes e Alto Douro,pt,free_region
+1526,Douro Litoral,pt,free_region
+1527,Beira Interior Norte,pt,free_region
+1528,Beira Interior Sul,pt,free_region
+1529,Alto Alentejo,pt,free_region
+1530,Azores,pt,province
+1534,Autoroute A8 - autoroutes du sud de la France,fr,other
+1535,Autoroute A51 - Autoroutes du sud de la France,fr,other
+1536,Autoroute A50 - Autoroutes du sud de la France,fr,other
+1537,A 57- Autoroutes du sud de la France,fr,other
+1538,Autoroute A55 - Autoroutes du sud de la France,fr,other
+1539,Autoroute A7 - Autoroutes du sud de la France - Autoroute du soleil,fr,other
+1540,Autoroute A52 - Autoroutes du sud de la France,fr,other
+1541,Autoroute A54 - Autoroutes du sud de la France,fr,other
+1542,Autoroute A9 - Autoroutes du sud de la France,fr,other
+1543,Autoroute A61 - Autoroutes du sud de la France,fr,other
+1544,Autoroute A66 - Autoroutes du sud de la France,fr,other
+1545,Autoroute A64 - Autoroutes du sud de la France,fr,other
+1546,Autoroute A63 - Autoroutes du sud de la France,fr,other
+1547,Autoroute A62 - Autoroutes du sud de la France,fr,other
+1548,Autoroute A20 - Autoroutes du sud de la France,fr,other
+1549,Autoroute A89 - Autoroutes du sud de la France,fr,other
+1550,Autoroute A75 - Autoroutes du sud de la France,fr,other
+1551,Autoroute A72 - Autoroutes du sud de la France,fr,other
+1552,Autoroute A10 - Autoroutes du sud de la France,fr,other
+1553,Autoroute A837 - Autoroutes du sud de la France,fr,other
+1554,Autoroute A11 - Autoroutes du sud de la France,fr,other
+1555,Somme,fr,free_region
+1557,Indre et Loire,fr,free_region
+1558,Sauerland,de,free_region
+1559,Island of RÃ©,fr,island
+1562,Silesia,pl,province
+1563,West Pomerania,pl,province
+1566,Mullerthal,lu,free_region
+1567,Little Switzerland,lu,free_region
+1568,Moselle Valley Luxembourg,lu,other
+1569,Disneyland Paris,fr,free_region
+1570,Corfu,gr,island
+1571,Larnaca Region,cy,free_region
+1573,Salzburger Lake district,at,other
+1574,Santiago's Route,fr,other
+1575,World Heritage Cities,fr,other
+1577,Oise,fr,free_region
+1580,French Riviera,mc,free_region
+1581,Gulf of Saint Tropez,fr,free_region
+1582,Vaucluse,fr,free_region
+1591,Rhodes,gr,island
+1595,Teruel,es,free_region
+1596,Ischia Island,it,island
+1600,Segovia,es,free_region
+1602,Gastein Valley,at,free_region
+1607,Hohe Tauern,at,free_region
+1612,Rennsteig,de,free_region
+1613,Europa Sportregion,at,free_region
+1615,Bruges Woodland,be,free_region
+1616,Thermen- & Vulkanland Styria,at,free_region
+1617,Westhoek,be,free_region
+1618,Leiestreek,be,free_region
+1620,Salzkammergut,at,free_region
+1621,Scheldeland,be,free_region
+1622,Groene Gordel,be,free_region
+1623,Skicircus Saalbach Hinterglemm Leogang Fieberbrunn,at,free_region
+1624,Antwerpse Kempen,be,free_region
+1625,Hageland,be,free_region
+1627,Salzburg surrounding,at,free_region
+1629,Maasland,be,free_region
+1630,Central Carinthia,at,free_region
+1631,Limburgse Kempen,be,free_region
+1632,Nature arena Carinthia,at,other
+1634,WÃ¶rthersee,at,other
+1635,Semmering-Rax-Schneeberg,at,free_region
+1636,Wienerwald,at,free_region
+1637,Waldviertel,at,free_region
+1638,Wachau,at,free_region
+1639,Marchfeld,at,free_region
+1640,Mostviertel,at,free_region
+1643,Danube,sk,free_region
+1644,Achensee,at,free_region
+1645,Arlberg,at,free_region
+1646,Zillertal,at,free_region
+1648,KitzbÃ¼hel Alps,at,free_region
+1649,MÃ¼hlviertel,at,free_region
+1650,Lake Zurich,ch,free_region
+1651,Schweizer Mittelland,ch,free_region
+1655,Flemish Ardennes,be,free_region
+1656,South Bohemia,cz,province
+1657,Pilsen,cz,province
+1663,Zakynthos,gr,island
+1665,Baltic Sea,de,free_region
+1667,Mons,be,other
+1668,Usedom,de,island
+1669,Chiemgau,de,free_region
+1670,Red Lands,lu,free_region
+1671,Kefalonia,gr,island
+1672,Capellen,lu,other
+1675,Redange,lu,province
+1679,Sorrento Coast,it,free_region
+1680,Salento,it,free_region
+1681,Amalfi Coast,it,free_region
+1685,Cornwall,gb,province
+1686,Cumberland,gb,province
+1687,Devon,gb,province
+1688,Nottinghamshire,gb,province
+1689,Somerset,gb,province
+1697,Shetland,gb,free_region
+1706,England,gb,free_region
+1707,Norfolk,gb,province
+1708,Leicestershire,gb,province
+1710,Sud,lu,other
+1712,St Martin,mf,other
+1714,Spitzingsee,de,free_region
+1716,Greek Islands,gr,free_region
+1717,Ogliastra,it,free_region
+1718,Cilento,it,free_region
+1719,Alanya Coast,tr,free_region
+1720,Antalya,tr,other
+1721,Iblei,it,other
+1722,Vogtland,de,free_region
+1724,Plaka,gr,other
+1725,Garfagnana,it,free_region
+1726,Lucca,it,other
+1727,Sylt,de,island
+1731,Antwerpen Province,be,province
+1732,Romagna,it,free_region
+1734,Lake Lugano,it,free_region
+1735,Steigerwald,de,free_region
+1736,OsnabrÃ¼cker Land,de,free_region
+1737,Rijk van Nijmegen,nl,free_region
+1739,Ostalp,de,other
+1741,Fichtelgebirge,de,free_region
+1744,Tegernsee,de,free_region
+1745,Malta,mt,other
+1746,Region Arnhem Nijmegen,nl,other
+1747,Bavarian Forest,de,free_region
+1748,Franconia,de,free_region
+1749,Franconian Lake District,de,free_region
+1750,Pitztal,at,free_region
+1751,Lake Constance,de,free_region
+1754,Cinque Terre,it,free_region
+1755,Ore Mountains,de,free_region
+1759,Upper Palatinate Forest,de,free_region
+1760,Gutland,lu,other
+1762,Lubelskie,pl,province
+1763,Istria,hr,province
+1764,Dalmatia,hr,free_region
+1765,High Fens,be,free_region
+1775,La Gomera,es,island
+1778,Fischland-DarÃ-Zingst,de,free_region
+1780,Neuschwanstein,de,other
+1782,Transylvania,ro,free_region
+1785,Riga,lv,other
+1786,Vilnius county,lt,province
+1787,Klaipeda county,lt,province
+1788,Kaunas county,lt,province
+1789,South Estonia,ee,other
+1790,North Estonia,ee,other
+1791,VÃµrumaa,ee,province
+1792,Lake Peipus,ee,free_region
+1793,Engadin,ch,free_region
+1794,Split Region,hr,free_region
+1795,Sibenik,hr,other
+1796,Zadar,hr,other
+1797,Kvarner,hr,free_region
+1798,Rostock,de,other
+1799,Ulm,de,other
+1801,Epirus,gr,province
+1802,Zagreb,hr,other
+1803,BergstraÃe,de,free_region
+1804,Bernese Jura/Neuchatel,ch,free_region
+1805,Aargau / Basel region,ch,free_region
+1806,Jeseniky Mountain,pl,free_region
+1807,Poznan,pl,other
+1808,Karkonosze,pl,free_region
+1811,St. Moritz Region,ch,other
+1813,Chiemsee,de,free_region
+1814,Syros,gr,island
+1817,Kos,gr,island
+1820,Upper Bavaria,de,free_region
+1821,East Tyrol,at,free_region
+1822,GroÃglockner-Grossvenediger,at,free_region
+1824,Krkonose,cz,free_region
+1826,Bregenzerwald,at,free_region
+1829,Moravia-Silesia,cz,province
+1830,Spa destinations,at,other
+1831,Upper-Sure,lu,free_region
+1833,Kempten,de,other
+1834,Tricity,pl,free_region
+1838,Pontine,it,island
+1840,Castels and Fortresses,at,other
+1841,Faro District,pt,other
+1842,Braga District,pt,other
+1843,Viana do Castelo District,pt,other
+1844,Castelo Branco District,pt,other
+1845,Coimbra District,pt,other
+1846,SantarÃ©m District,pt,other
+1847,Porto District,pt,other
+1848,Aveiro District,pt,other
+1849,Lisboa District,pt,other
+1850,Evora District,pt,other
+1851,Beja District,pt,other
+1852,SetÃºbal District,pt,other
+1854,European Beach Destinations,es,other
+1856,Vienna surrounding,at,free_region
+1859,Serra da Estrela,pt,free_region
+1865,Zillertal Arena,at,other
+1867,Ãtztal,at,free_region
+1872,Basque Coast,fr,other
+1873,PÃ©rigord,fr,free_region
+1874,Quercy,fr,free_region
+1875,PyrÃ©nÃ©es,fr,free_region
+1879,Wolfgangsee,at,free_region
+1880,Linz Land,at,free_region
+1881,Swietokrzyskie,pl,province
+1882,Viseu district,pt,other
+1884,Rothenburg Land,de,other
+1885,Calais Coquelles,fr,other
+1897,Reschenpass,it,other
+1898,Vulkan Eifel,de,free_region
+1899,Trier,de,other
+1900,Stubaital,at,free_region
+1901,Carinthian Lakes,at,free_region
+1902,Leiria District,pt,other
+1904,Interlaken Region,ch,other
+1905,Kleinwalsertal,de,free_region
+1906,Achterhoek,nl,free_region
+1908,Seefeld Plateau,at,free_region
+1910,Tinos,gr,island
+1912,Disneyland,fr,other
+1930,MÃ¸re og Romsdal,no,province
+1931,Dovre,no,free_region
+1932,Troms,no,free_region
+1933,Rondane,no,free_region
+1934,Ãstfold,no,free_region
+1935,Vestfold,no,free_region
+1936,Hedmark,no,free_region
+1937,Finnmark,no,free_region
+1967,La DÃ©fense,fr,free_region
+1969,Limassol Region,cy,free_region
+1970,Portalegre District,pt,other
+1975,Riviera delle Palme,it,free_region
+1976,Riviera dei Fiori,it,free_region
+1978,Dordogne,fr,free_region
+1979,Lubuskie,pl,province
+1980,Lincolnshire,gb,province
+1981,Derbyshire,gb,province
+1982,Northamptonshire,gb,province
+1983,Cheshire,gb,province
+1984,Hertfordshire,gb,province
+1987,Protaras,cy,other
+1991,Mugello,it,free_region
+1993,Etruscan Coast,it,free_region
+1994,Rethymno,gr,province
+2002,Distrito de BraganÃ§a,pt,other
+2003,Zakopane Region,pl,free_region
+2004,Turkish Riviera,tr,free_region
+2005,Krakow Region,pl,other
+2006,Chania,gr,province
+2008,North Sea Coast Germany,de,free_region
+2010,Mediterranean sea,gr,other
+2014,Krk Island,hr,island
+2015,Brac Island,hr,island
+2016,Hvar Island,hr,island
+2017,Korcula Island,hr,island
+2018,Hiking destinations,at,other
+2020,Tyrol West,at,other
+2021,Pardubice Region,cz,province
+2022,Muntenia,ro,free_region
+2023,Banat,ro,free_region
+2024,Moldova,ro,free_region
+2026,Davos,ch,free_region
+2031,Central Crete,gr,free_region
+2037,Low Tatra,sk,free_region
+2038,KoÅ¡ickÃ½ kraj,sk,province
+2039,High Tatras,sk,free_region
+2040,BratislavskÃ½ kraj,sk,province
+2051,Guarda district,pt,other
+2052,Greater Athens Area,gr,free_region
+2054,Swabian Forest,de,free_region
+2055,Swabian Alps,de,free_region
+2056,MarkgrÃ¤flerland,de,free_region
+2057,High Rhine,de,free_region
+2059,Paderborner Land,de,free_region
+2060,Brunswick Land,de,free_region
+2061,Thuringian Forest,de,free_region
+2062,Waldecker Land,de,free_region
+2063,Odenwald,de,free_region
+2064,Bay of Kiel,de,free_region
+2065,Westerwald,de,free_region
+2066,Rhenish Hesse,de,free_region
+2067,Lower Bavaria,de,free_region
+2068,Bavarian Swabia,de,free_region
+2069,RhÃ¶n,de,free_region
+2070,Franconian Forest,de,free_region
+2071,Mecklenburg Lake District,de,free_region
+2072,Mecklenburg Switzerland,de,free_region
+2073,Thessaloniki surroundings,gr,other
+2075,Ardennes Luxembourg,lu,free_region
+2076,LoÅ¡inj Island,hr,island
+2077,East Frisia,de,free_region
+2078,Huesca,es,free_region
+2080,Sierra Nevada,es,other
+2083,Emerald Coast,it,free_region
+2085,LÃ¤Ã¤nemaa,ee,province
+2086,LÃ¤Ã¤ne-Virumaa,ee,province
+2087,PÃ¤rnumaa,ee,province
+2088,Raplamaa,ee,province
+2089,JÃ¤rvamaa,ee,province
+2090,Ida-Virumaa,ee,province
+2091,JÃµgevamaa,ee,province
+2092,Tartumaa,ee,province
+2093,PÃµlvamaa,ee,province
+2094,Valgamaa,ee,province
+2095,Viljandimaa,ee,province
+2096,Hiiumaa,ee,island
+2097,Saaremaa,ee,island
+2100,Aizkraukle Municipality,lv,free_region
+2101,Aluksne Municipality,lv,free_region
+2102,Balvi Municipality,lv,free_region
+2103,Bauskas,lv,other
+2106,Cesu Municipality,lv,other
+2107,Daugavpils Municipality,lv,free_region
+2108,Dobele Municipality,lv,province
+2109,Gulbene Municipality,lv,free_region
+2110,Jekabpils Municipality,lv,free_region
+2111,Jelgava Municipality,lv,free_region
+2112,Kraslava Municipality,lv,province
+2113,Kuldiga Municipality,lv,free_region
+2114,Liepaja Municipality,lv,free_region
+2115,Limbazi Municipality,lv,free_region
+2116,Ludza Municipality,lv,free_region
+2118,Ogre Municipality,lv,province
+2119,Preili Municipality,lv,free_region
+2120,Rezekne Municipality,lv,province
+2122,Saldus Municipality,lv,free_region
+2123,Talsi Municipality,lv,free_region
+2124,Tukums Municipality,lv,free_region
+2125,Valka Municipality,lv,free_region
+2127,Ventspils Municipality,lv,free_region
+2128,Gulf of Riga,lv,free_region
+2129,Bordeaux - Clermont Ferrand,fr,other
+2130,Lyon -Marseille,fr,other
+2131,Clermont Ferrand - Bordeaux,fr,other
+2132,West Crete,gr,free_region
+2133,East Crete,gr,free_region
+2139,Basilicata,it,province
+2141,Ceuta & Melilla,es,free_region
+2143,TrnavskÃ½ kraj,sk,province
+2145,Liptov,sk,free_region
+2146,BanskobystrickÃ½ kraj,sk,province
+2150,Greater Ljubljana,si,free_region
+2151,Julian Alps,si,free_region
+2152,Gorenjska,si,province
+2154,Pomurje,si,province
+2156,Carinthia,si,province
+2157,Notranjska,si,province
+2158,Dolenjska (Lower Carniola),si,province
+2159,Goriska and Karst,si,free_region
+2165,Central Crete,gr,other
+2169,Caserta Area,it,other
+2174,Leros,gr,island
+2175,Patra & Surroundings,gr,other
+2176,Delphi,gr,other
+2179,Styria,si,free_region
+2180,Mljet Island,hr,island
+2183,Spreewald,de,free_region
+2185,Grevenmacher,lu,province
+2186,Old Treviso Area,it,other
+2190,Brescia Area,it,other
+2191,Parma,it,other
+2192,Patmos,gr,island
+2193,Lesvos,gr,island
+2196,Vila Real district,pt,other
+2200,Fehmarn,de,island
+2211,Valle dei Templi,it,free_region
+2219,Procida Island,it,island
+2220,Thessalia (for supply target only),gr,other
+2221,Sporades,gr,free_region
+2224,Warmia-Masuria,pl,province
+2225,Podlaskie,pl,province
+2226,Kuyavian-Pomeranian,pl,province
+2227,Opolskie,pl,province
+2228,Podkarpackie,pl,province
+2229,Sifnos,gr,island

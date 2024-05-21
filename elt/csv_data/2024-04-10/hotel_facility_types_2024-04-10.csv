@@ -1,0 +1,257 @@
+facility_type_id,hotel_facility_type_id,name
+1,2,Parking
+7,3,Restaurant
+1,4,Pets allowed
+7,5,Room service
+27,6,Meeting/banquet facilities
+7,7,Bar
+23,8,24-hour front desk
+2,9,Tennis court
+21,10,Sauna
+21,11,Fitness centre
+2,12,Golf course (within 3 km)
+24,14,Garden
+24,15,Terrace
+29,16,Non-smoking rooms
+22,17,Airport shuttle
+2,19,Fishing
+27,20,Business centre
+25,21,Babysitting/child services
+26,22,Laundry
+26,23,Dry cleaning
+1,24,Continental breakfast
+29,25,Facilities for disabled guests
+2,26,Skiing
+28,27,Barber/beauty shop
+29,28,Family rooms
+24,29,Games room
+25,30,Casino
+7,43,Breakfast in the room
+26,44,Ironing service
+1,46,Free parking
+3,47,Internet services
+29,48,Lift
+23,49,Express check-in/check-out
+21,50,Solarium
+34,51,Safety deposit box
+23,52,Valet parking
+23,53,Currency exchange
+21,54,Spa and wellness centre
+21,55,Massage
+25,56,Children's playground
+2,57,Billiards
+2,58,Table tennis
+25,59,Karaoke
+2,61,Windsurfing
+2,62,Darts
+21,63,Hot tub/Jacuzzi
+29,64,Soundproof rooms
+2,69,Canoeing
+2,70,Hiking
+24,71,Chapel/shrine
+7,72,BBQ facilities
+7,73,Packed lunches
+22,75,Car hire
+2,76,Cycling
+2,77,Bowling
+23,78,Tour desk
+21,79,Hammam
+29,80,Heating
+27,81,Fax/photocopying
+2,82,Diving
+2,86,Horse riding
+2,87,Squash
+2,90,Snorkelling
+23,91,Luggage storage
+3,96,WiFi
+2,97,Mini golf
+2,99,Ski storage
+2,100,Ski school
+29,101,Allergy-free room
+21,103,Indoor pool
+21,104,Outdoor pool
+3,107,Free WiFi
+29,108,Non-smoking throughout
+29,109,Air conditioning
+29,110,Designated smoking area
+23,111,ATM/cash machine on site
+21,114,Private beach area
+7,115,Restaurant (à la carte)
+7,116,Restaurant (buffet)
+7,117,Snack bar
+24,118,Sun terrace
+21,119,Outdoor pool (all year)
+21,120,Outdoor pool (seasonal)
+21,121,Indoor pool (all year)
+21,122,Indoor pool (seasonal)
+23,124,Concierge service
+25,125,Entertainment staff
+25,126,Nightclub/DJ
+23,127,Private check-in/check-out
+22,128,Shuttle service (free)
+22,129,Shuttle service (additional charge)
+2,130,Ski equipment hire on site
+2,131,Ski pass vendor
+2,132,Ski-to-door access
+7,133,Special diet menus (on request)
+26,134,Trouser press
+7,135,Vending machine (drinks)
+7,136,Vending machine (snacks)
+2,137,Water sport facilities on site
+21,138,Hot spring bath
+22,139,Airport shuttle (free)
+22,140,Airport shuttle (additional charge)
+24,141,Shared kitchen
+23,142,Lockers
+24,143,Shared lounge/TV area
+25,144,Kids' club
+28,145,Minimarket on site
+21,146,Beachfront
+25,147,Evening entertainment
+2,148,Water park
+29,149,Adult only
+26,158,Daily housekeeping
+7,159,Grocery deliveries
+1,160,Parking on site
+1,161,Private parking
+1,162,Misc parking
+1,163,WiFi available in all areas
+1,164,Paid WiFi
+21,166,Open-air bath
+21,167,Public Bath
+21,168,Water slide
+21,169,Swimming pool toys
+25,170,Board games/puzzles
+25,172,Indoor play area
+25,173,Kids' outdoor play equipment
+25,174,Baby safety gates
+7,176,Kid meals
+7,177,Kid-friendly buffet
+22,179,Secured parking
+22,180,Street parking
+22,181,Parking garage
+22,182,Electric vehicle charging station
+22,183,Public transport tickets
+22,184,Accessible parking
+29,185,Wheelchair accessible
+29,186,Toilet with grab rails
+29,187,Higher level toilet
+29,188,Lower bathroom sink
+29,189,Emergency cord in bathroom
+21,192,Rooftop pool
+21,193,Infinity pool
+21,194,Pool with view
+21,195,Heated pool
+21,196,Salt-water pool
+21,197,Plunge pool
+21,199,Pool bar
+21,200,Shallow end
+21,201,Pool cover
+7,203,Wine/champagne
+7,205,Fruits
+22,209,Airport pick up
+22,210,Airport drop off
+29,211,Visual aids: Braille
+29,212,Visual aids: Tactile signs
+29,213,Auditory guidance
+25,214,Strollers
+2,215,Tennis equipment
+2,216,Badminton equipment
+29,217,Pet basket
+29,218,Pet bowls
+7,219,Coffee house on site
+21,220,Sun loungers or beach chairs
+21,221,Sun umbrellas
+24,222,Outdoor furniture
+21,223,Fence around pool
+24,224,Picnic area
+24,225,Outdoor fireplace
+21,226,Beauty Services
+21,227,Facial treatments
+21,228,Waxing services
+21,229,Make up services
+21,230,Hair treatments
+21,231,Manicure
+21,232,Pedicure
+21,233,Hair cut
+21,234,Hair colouring
+21,235,Hair styling
+21,236,Body treatments
+21,237,Body scrub
+21,238,Body wrap
+21,239,Light therapy
+21,240,Spa facilities
+21,241,Steam room
+21,242,Spa lounge/relaxation area
+21,243,Foot bath
+21,244,Spa/wellness packages
+21,245,Back massage
+21,246,Neck massage
+21,247,Foot massage
+21,248,Couples massage
+21,249,Head massage
+21,250,Hand massage
+21,251,Full body massage
+21,252,Massage chair
+21,253,Fitness
+21,254,Yoga classes
+21,255,Fitness classes
+21,256,Personal trainer
+21,257,Fitness/spa locker rooms
+21,258,Kids' pool
+21,301,Swimming pool
+2,302,Beach
+22,304,Shuttle service
+2,306,Game drives
+2,400,Temporary art galleries
+2,401,Pub crawls
+2,402,Stand-up comedy
+2,403,Movie nights
+2,404,Walking tours
+2,405,Bike tours
+2,406,Themed dinner nights
+2,407,Happy hour
+2,408,Tour or class about local culture
+2,409,Cooking class
+2,410,Live music/performance
+2,411,Live sport events (broadcast)
+2,412,Archery
+2,413,Aerobics
+2,414,Bingo
+34,418,24-hour security
+29,419,Key access
+29,420,Key card access
+34,421,Security alarm
+34,422,Smoke alarms
+34,423,CCTV in common areas
+34,424,CCTV outside property
+34,425,Fire extinguishers
+21,431,Bath/Hot spring
+21,432,Private bath
+21,433,Swimming Pool
+22,447,Bicycle rental
+40,449,Use of cleaning chemicals that are effective against Coronavirus
+40,450,"Linens, towels and laundry washed in accordance with local authority guidelines"
+40,451,Guest accommodation is disinfected between stays
+40,452,Guest accommodation sealed after cleaning
+41,453,Physical distancing in dining areas
+41,454,Food can be delivered to guest accommodation
+37,455,Staff follow all safety protocols as directed by local authorities
+37,456,"Shared stationery such as printed menus, magazines, pens, and paper removed"
+37,457,Hand sanitizer in guest accommodation and key areas
+37,458,Process in place to check health of guests
+37,459,First aid kit available
+39,460,Contactless check-in/check-out
+39,461,Cashless payment available
+39,462,Physical distancing rules followed
+39,463,Mobile app for room service
+39,464,Screens or physical barriers placed between staff and guests in appropriate areas
+23,465,Invoice provided
+40,466,Property is cleaned by professional cleaning companies
+41,467,"All plates, cutlery, glasses and other tableware have been sanitized"
+40,468,Guests have the option to cancel any cleaning services for their accommodation during their stay
+41,484,Breakfast takeaway containers
+41,485,Delivered food is securely covered
+37,486,Access to health care professionals
+37,487,Thermometers for guests provided by property
+37,488,Face masks for guests available

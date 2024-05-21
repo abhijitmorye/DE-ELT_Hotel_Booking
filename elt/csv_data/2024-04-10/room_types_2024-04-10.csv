@@ -1,0 +1,38 @@
+name,room_type_id
+Apartment,1
+Presidential Suite,2
+Bridal Suite,3
+Quadruple,4
+Suite,5
+Junior Suite,6
+Triple,7
+Twin,8
+Double,9
+Single,10
+Executive Suite,11
+Studio,12
+Family,13
+Business Suite,14
+Penthouse,15
+Chalet,17
+Royal Suite,18
+Bungalow/Chalet,19
+unknown,20
+Executive Room,21
+Superior Room,22
+Double for Single Use,23
+Twin/Double,24
+Dormitory Room,25
+Bed in Dormitory,26
+Bungalow,27
+Chalet,28
+Holiday Home,29
+Mobile home/Tent,30
+Villa,31
+Mobile Home,32
+Tent,33
+Empty spot,35
+Partner offer,36
+Private 5-bed room,37
+Large private room,39
+Private 6-bed room,38

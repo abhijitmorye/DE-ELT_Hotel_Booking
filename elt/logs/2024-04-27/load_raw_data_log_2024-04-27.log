@@ -1,0 +1,1037 @@
+27-Apr-24 16:31:17 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+27-Apr-24 16:31:17 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+27-Apr-24 16:31:17 - Starting load raw data task..
+27-Apr-24 16:31:17 - 20240427163117
+27-Apr-24 16:31:17 - Input raw csv data path -- /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/csv_data/2024-04-27
+27-Apr-24 16:31:17 - Container Upload full path -- 2024-04-27/20240427163117/room_types_2024-04-27.csv
+27-Apr-24 16:31:17 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427163117/room_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '561'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928be008-04b3-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 16:31:17 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 16:31:17 GMT'
+    'ETag': '"0x8DC66D776C748A5"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b929c79e-f01e-007e-4ec0-98d540000000'
+    'x-ms-client-request-id': '928be008-04b3-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 16:31:16 GMT'
+27-Apr-24 16:31:17 - Container Upload full path -- 2024-04-27/20240427163117/district_2024-04-27.csv
+27-Apr-24 16:31:17 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427163117/district_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '64599'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928be009-04b3-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 16:31:17 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 16:31:17 GMT'
+    'ETag': '"0x8DC66D776C9B946"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b929c7ab-f01e-007e-5ac0-98d540000000'
+    'x-ms-client-request-id': '928be009-04b3-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 16:31:16 GMT'
+27-Apr-24 16:31:17 - Container Upload full path -- 2024-04-27/20240427163117/chain_types_2024-04-27.csv
+27-Apr-24 16:31:17 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427163117/chain_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '28712'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928be00a-04b3-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 16:31:17 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 16:31:17 GMT'
+    'ETag': '"0x8DC66D776CB8DCD"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b929c7b3-f01e-007e-62c0-98d540000000'
+    'x-ms-client-request-id': '928be00a-04b3-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 16:31:16 GMT'
+27-Apr-24 16:31:17 - Container Upload full path -- 2024-04-27/20240427163117/country_2024-04-27.csv
+27-Apr-24 16:31:17 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427163117/country_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4956'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928be00b-04b3-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 16:31:17 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 16:31:17 GMT'
+    'ETag': '"0x8DC66D776CE2578"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b929c7bb-f01e-007e-69c0-98d540000000'
+    'x-ms-client-request-id': '928be00b-04b3-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 16:31:16 GMT'
+27-Apr-24 16:31:17 - Container Upload full path -- 2024-04-27/20240427163117/hotels_2024-04-27.csv
+27-Apr-24 16:31:17 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427163117/hotels_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '405953'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928be00c-04b3-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 16:31:17 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 16:31:17 GMT'
+    'ETag': '"0x8DC66D776D1805A"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b929c7bf-f01e-007e-6dc0-98d540000000'
+    'x-ms-client-request-id': '928be00c-04b3-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 16:31:16 GMT'
+27-Apr-24 16:31:17 - Container Upload full path -- 2024-04-27/20240427163117/cities_2024-04-27.csv
+27-Apr-24 16:31:17 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427163117/cities_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '73676'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928be00d-04b3-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 16:31:17 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 16:31:17 GMT'
+    'ETag': '"0x8DC66D776D37BE4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b929c7cb-f01e-007e-76c0-98d540000000'
+    'x-ms-client-request-id': '928be00d-04b3-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 16:31:16 GMT'
+27-Apr-24 16:31:17 - Container Upload full path -- 2024-04-27/20240427163117/facility_types_2024-04-27.csv
+27-Apr-24 16:31:17 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427163117/facility_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '714'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928be00e-04b3-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 16:31:17 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 16:31:17 GMT'
+    'ETag': '"0x8DC66D776D55066"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b929c7d3-f01e-007e-7cc0-98d540000000'
+    'x-ms-client-request-id': '928be00e-04b3-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 16:31:16 GMT'
+27-Apr-24 16:31:17 - Container Upload full path -- 2024-04-27/20240427163117/hotel_facility_types_2024-04-27.csv
+27-Apr-24 16:31:17 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427163117/hotel_facility_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '6572'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928be00f-04b3-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 16:31:17 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 16:31:17 GMT'
+    'ETag': '"0x8DC66D776D6D6C5"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b929c7da-f01e-007e-80c0-98d540000000'
+    'x-ms-client-request-id': '928be00f-04b3-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 16:31:16 GMT'
+27-Apr-24 16:31:17 - Container Upload full path -- 2024-04-27/20240427163117/payment_types_2024-04-27.csv
+27-Apr-24 16:31:17 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427163117/payment_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '1413'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928be010-04b3-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 16:31:17 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 16:31:17 GMT'
+    'ETag': '"0x8DC66D776D85D2C"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b929c7df-f01e-007e-05c0-98d540000000'
+    'x-ms-client-request-id': '928be010-04b3-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 16:31:16 GMT'
+27-Apr-24 16:31:17 - Container Upload full path -- 2024-04-27/20240427163117/room_facility_types_2024-04-27.csv
+27-Apr-24 16:31:17 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427163117/room_facility_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4574'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928be011-04b3-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 16:31:17 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 16:31:17 GMT'
+    'ETag': '"0x8DC66D776DACDD0"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b929c7ea-f01e-007e-10c0-98d540000000'
+    'x-ms-client-request-id': '928be011-04b3-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 16:31:16 GMT'
+27-Apr-24 16:31:17 - Container Upload full path -- 2024-04-27/20240427163117/hotel_types_2024-04-27.csv
+27-Apr-24 16:31:17 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427163117/hotel_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '524'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928be012-04b3-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 16:31:17 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 16:31:17 GMT'
+    'ETag': '"0x8DC66D776DC7B4C"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b929c7f1-f01e-007e-16c0-98d540000000'
+    'x-ms-client-request-id': '928be012-04b3-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 16:31:16 GMT'
+27-Apr-24 16:31:17 - Container Upload full path -- 2024-04-27/20240427163117/regions_2024-04-27.csv
+27-Apr-24 16:31:17 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427163117/regions_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '31461'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928be013-04b3-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 16:31:17 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 16:31:17 GMT'
+    'ETag': '"0x8DC66D776DE4FBF"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b929c7fb-f01e-007e-1dc0-98d540000000'
+    'x-ms-client-request-id': '928be013-04b3-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 16:31:16 GMT'
+27-Apr-24 16:31:17 - Raw data load completed, time taken 0:00:00.307598
+27-Apr-24 16:31:17 - Done. Returned value was: None
+27-Apr-24 16:31:17 - ::group::Post task execution logs
+27-Apr-24 16:31:17 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=load_raw_data_task, execution_date=20240427T163031, start_date=20240427T163117, end_date=20240427T163117
+27-Apr-24 17:13:07 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+27-Apr-24 17:13:07 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+27-Apr-24 17:13:07 - Starting load raw data task..
+27-Apr-24 17:13:07 - 20240427171307
+27-Apr-24 17:13:07 - Input raw csv data path -- /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/csv_data/2024-04-27
+27-Apr-24 17:13:07 - Container Upload full path -- 2024-04-27/20240427171307/room_types_2024-04-27.csv
+27-Apr-24 17:13:07 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427171307/room_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '561'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6a4c8088-04b9-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 17:13:07 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 17:13:07 GMT'
+    'ETag': '"0x8DC66DD4E880398"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2b6c2da2-501e-0015-4bc6-9852b4000000'
+    'x-ms-client-request-id': '6a4c8088-04b9-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 17:13:06 GMT'
+27-Apr-24 17:13:07 - Container Upload full path -- 2024-04-27/20240427171307/district_2024-04-27.csv
+27-Apr-24 17:13:07 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427171307/district_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '64599'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6a4c8089-04b9-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 17:13:07 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 17:13:07 GMT'
+    'ETag': '"0x8DC66DD4E89D812"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2b6c2db7-501e-0015-5fc6-9852b4000000'
+    'x-ms-client-request-id': '6a4c8089-04b9-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 17:13:06 GMT'
+27-Apr-24 17:13:07 - Container Upload full path -- 2024-04-27/20240427171307/chain_types_2024-04-27.csv
+27-Apr-24 17:13:07 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427171307/chain_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '28712'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6a4c808a-04b9-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 17:13:07 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 17:13:07 GMT'
+    'ETag': '"0x8DC66DD4E8B8582"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2b6c2dc0-501e-0015-67c6-9852b4000000'
+    'x-ms-client-request-id': '6a4c808a-04b9-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 17:13:06 GMT'
+27-Apr-24 17:13:07 - Container Upload full path -- 2024-04-27/20240427171307/country_2024-04-27.csv
+27-Apr-24 17:13:07 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427171307/country_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4956'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6a4c808b-04b9-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 17:13:07 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 17:13:07 GMT'
+    'ETag': '"0x8DC66DD4E8D0BE9"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2b6c2dce-501e-0015-74c6-9852b4000000'
+    'x-ms-client-request-id': '6a4c808b-04b9-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 17:13:06 GMT'
+27-Apr-24 17:13:07 - Container Upload full path -- 2024-04-27/20240427171307/hotels_2024-04-27.csv
+27-Apr-24 17:13:07 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427171307/hotels_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '405953'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6a4c808c-04b9-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 17:13:07 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 17:13:07 GMT'
+    'ETag': '"0x8DC66DD4E9018B6"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2b6c2dd8-501e-0015-7ec6-9852b4000000'
+    'x-ms-client-request-id': '6a4c808c-04b9-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 17:13:06 GMT'
+27-Apr-24 17:13:07 - Container Upload full path -- 2024-04-27/20240427171307/cities_2024-04-27.csv
+27-Apr-24 17:13:07 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427171307/cities_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '73676'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6a4c808d-04b9-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 17:13:07 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 17:13:07 GMT'
+    'ETag': '"0x8DC66DD4E91ED39"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2b6c2de3-501e-0015-09c6-9852b4000000'
+    'x-ms-client-request-id': '6a4c808d-04b9-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 17:13:06 GMT'
+27-Apr-24 17:13:07 - Container Upload full path -- 2024-04-27/20240427171307/facility_types_2024-04-27.csv
+27-Apr-24 17:13:07 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427171307/facility_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '714'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6a4c808e-04b9-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 17:13:07 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 17:13:07 GMT'
+    'ETag': '"0x8DC66DD4E93739D"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2b6c2dee-501e-0015-13c6-9852b4000000'
+    'x-ms-client-request-id': '6a4c808e-04b9-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 17:13:06 GMT'
+27-Apr-24 17:13:07 - Container Upload full path -- 2024-04-27/20240427171307/hotel_facility_types_2024-04-27.csv
+27-Apr-24 17:13:07 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427171307/hotel_facility_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '6572'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6a4c808f-04b9-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 17:13:07 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 17:13:07 GMT'
+    'ETag': '"0x8DC66DD4E954823"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2b6c2dfd-501e-0015-21c6-9852b4000000'
+    'x-ms-client-request-id': '6a4c808f-04b9-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 17:13:06 GMT'
+27-Apr-24 17:13:07 - Container Upload full path -- 2024-04-27/20240427171307/payment_types_2024-04-27.csv
+27-Apr-24 17:13:07 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427171307/payment_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '1413'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6a4c8090-04b9-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 17:13:07 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 17:13:07 GMT'
+    'ETag': '"0x8DC66DD4E971C9C"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2b6c2e08-501e-0015-2cc6-9852b4000000'
+    'x-ms-client-request-id': '6a4c8090-04b9-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 17:13:06 GMT'
+27-Apr-24 17:13:07 - Container Upload full path -- 2024-04-27/20240427171307/room_facility_types_2024-04-27.csv
+27-Apr-24 17:13:07 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427171307/room_facility_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4574'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6a4c8091-04b9-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 17:13:07 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 17:13:07 GMT'
+    'ETag': '"0x8DC66DD4E98CA07"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2b6c2e16-501e-0015-38c6-9852b4000000'
+    'x-ms-client-request-id': '6a4c8091-04b9-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 17:13:06 GMT'
+27-Apr-24 17:13:07 - Container Upload full path -- 2024-04-27/20240427171307/hotel_types_2024-04-27.csv
+27-Apr-24 17:13:07 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427171307/hotel_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '524'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6a4c8092-04b9-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 17:13:07 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 17:13:07 GMT'
+    'ETag': '"0x8DC66DD4E9B3AAC"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2b6c2e2e-501e-0015-49c6-9852b4000000'
+    'x-ms-client-request-id': '6a4c8092-04b9-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 17:13:06 GMT'
+27-Apr-24 17:13:07 - Container Upload full path -- 2024-04-27/20240427171307/regions_2024-04-27.csv
+27-Apr-24 17:13:07 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427171307/regions_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '31461'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6a4c8093-04b9-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 17:13:07 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 17:13:07 GMT'
+    'ETag': '"0x8DC66DD4E9CE81E"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '2b6c2e3e-501e-0015-59c6-9852b4000000'
+    'x-ms-client-request-id': '6a4c8093-04b9-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 17:13:06 GMT'
+27-Apr-24 17:13:07 - Raw data load completed, time taken 0:00:00.231759
+27-Apr-24 17:13:07 - Done. Returned value was: None
+27-Apr-24 17:13:07 - ::group::Post task execution logs
+27-Apr-24 17:13:07 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=load_raw_data_task, execution_date=20240427T171228, start_date=20240427T171306, end_date=20240427T171307
+27-Apr-24 18:00:02 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+27-Apr-24 18:00:02 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+27-Apr-24 18:00:02 - Starting load raw data task..
+27-Apr-24 18:00:02 - 20240427180002
+27-Apr-24 18:00:02 - Input raw csv data path -- /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/csv_data/2024-04-27
+27-Apr-24 18:00:02 - Container Upload full path -- 2024-04-27/20240427180002/room_types_2024-04-27.csv
+27-Apr-24 18:00:02 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427180002/room_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '561'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f833fb50-04bf-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 18:00:02 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 18:00:02 GMT'
+    'ETag': '"0x8DC66E3DC70F92A"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8a756a3-501e-003a-42cc-985f7f000000'
+    'x-ms-client-request-id': 'f833fb50-04bf-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 18:00:02 GMT'
+27-Apr-24 18:00:02 - Container Upload full path -- 2024-04-27/20240427180002/district_2024-04-27.csv
+27-Apr-24 18:00:02 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427180002/district_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '64599'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f833fb51-04bf-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 18:00:02 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 18:00:02 GMT'
+    'ETag': '"0x8DC66E3DC7369D7"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8a756b3-501e-003a-50cc-985f7f000000'
+    'x-ms-client-request-id': 'f833fb51-04bf-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 18:00:02 GMT'
+27-Apr-24 18:00:02 - Container Upload full path -- 2024-04-27/20240427180002/chain_types_2024-04-27.csv
+27-Apr-24 18:00:02 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427180002/chain_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '28712'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f833fb52-04bf-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 18:00:02 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 18:00:02 GMT'
+    'ETag': '"0x8DC66E3DC75DA73"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8a756c7-501e-003a-5fcc-985f7f000000'
+    'x-ms-client-request-id': 'f833fb52-04bf-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 18:00:02 GMT'
+27-Apr-24 18:00:02 - Container Upload full path -- 2024-04-27/20240427180002/country_2024-04-27.csv
+27-Apr-24 18:00:02 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427180002/country_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4956'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f833fb53-04bf-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 18:00:02 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 18:00:02 GMT'
+    'ETag': '"0x8DC66E3DC78240F"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8a756d0-501e-003a-68cc-985f7f000000'
+    'x-ms-client-request-id': 'f833fb53-04bf-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 18:00:02 GMT'
+27-Apr-24 18:00:02 - Container Upload full path -- 2024-04-27/20240427180002/hotels_2024-04-27.csv
+27-Apr-24 18:00:02 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427180002/hotels_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '405953'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f833fb54-04bf-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 18:00:02 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 18:00:02 GMT'
+    'ETag': '"0x8DC66E3DC7C6934"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8a756dd-501e-003a-74cc-985f7f000000'
+    'x-ms-client-request-id': 'f833fb54-04bf-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 18:00:02 GMT'
+27-Apr-24 18:00:02 - Container Upload full path -- 2024-04-27/20240427180002/cities_2024-04-27.csv
+27-Apr-24 18:00:02 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427180002/cities_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '73676'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f833fb55-04bf-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 18:00:02 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 18:00:02 GMT'
+    'ETag': '"0x8DC66E3DC7ED9E0"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8a756f1-501e-003a-04cc-985f7f000000'
+    'x-ms-client-request-id': 'f833fb55-04bf-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 18:00:02 GMT'
+27-Apr-24 18:00:02 - Container Upload full path -- 2024-04-27/20240427180002/facility_types_2024-04-27.csv
+27-Apr-24 18:00:02 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427180002/facility_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '714'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f833fb56-04bf-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 18:00:02 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 18:00:02 GMT'
+    'ETag': '"0x8DC66E3DC80D562"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8a756fa-501e-003a-0ccc-985f7f000000'
+    'x-ms-client-request-id': 'f833fb56-04bf-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 18:00:02 GMT'
+27-Apr-24 18:00:02 - Container Upload full path -- 2024-04-27/20240427180002/hotel_facility_types_2024-04-27.csv
+27-Apr-24 18:00:02 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427180002/hotel_facility_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '6572'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f833fb57-04bf-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 18:00:02 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 18:00:02 GMT'
+    'ETag': '"0x8DC66E3DC82A9E3"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8a75706-501e-003a-16cc-985f7f000000'
+    'x-ms-client-request-id': 'f833fb57-04bf-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 18:00:02 GMT'
+27-Apr-24 18:00:02 - Container Upload full path -- 2024-04-27/20240427180002/payment_types_2024-04-27.csv
+27-Apr-24 18:00:02 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427180002/payment_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '1413'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f833fb58-04bf-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 18:00:02 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 18:00:02 GMT'
+    'ETag': '"0x8DC66E3DC84F376"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8a75710-501e-003a-1fcc-985f7f000000'
+    'x-ms-client-request-id': 'f833fb58-04bf-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 18:00:02 GMT'
+27-Apr-24 18:00:02 - Container Upload full path -- 2024-04-27/20240427180002/room_facility_types_2024-04-27.csv
+27-Apr-24 18:00:02 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427180002/room_facility_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4574'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f833fb59-04bf-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 18:00:02 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 18:00:02 GMT'
+    'ETag': '"0x8DC66E3DC878B21"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8a7571b-501e-003a-29cc-985f7f000000'
+    'x-ms-client-request-id': 'f833fb59-04bf-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 18:00:02 GMT'
+27-Apr-24 18:00:02 - Container Upload full path -- 2024-04-27/20240427180002/hotel_types_2024-04-27.csv
+27-Apr-24 18:00:02 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427180002/hotel_types_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '524'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f833fb5a-04bf-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 18:00:02 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 18:00:02 GMT'
+    'ETag': '"0x8DC66E3DC8DA4C5"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8a75742-501e-003a-44cc-985f7f000000'
+    'x-ms-client-request-id': 'f833fb5a-04bf-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 18:00:02 GMT'
+27-Apr-24 18:00:02 - Container Upload full path -- 2024-04-27/20240427180002/regions_2024-04-27.csv
+27-Apr-24 18:00:02 - Request URL: 'https://azdestabm001.blob.core.windows.net/hotel-booking-raw-data/2024-04-27/20240427180002/regions_2024-04-27.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '31461'
+    'x-ms-blob-type': 'REDACTED'
+    'If-None-Match': '*'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.1 Python/3.8.10 (Linux-5.15.0-1060-azure-x86_64-with-glibc2.29)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f833fb5b-04bf-11ef-932a-977a48070648'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+27-Apr-24 18:00:02 - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Sat, 27 Apr 2024 18:00:02 GMT'
+    'ETag': '"0x8DC66E3DC8F7946"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e8a7574d-501e-003a-4dcc-985f7f000000'
+    'x-ms-client-request-id': 'f833fb5b-04bf-11ef-932a-977a48070648'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Sat, 27 Apr 2024 18:00:02 GMT'
+27-Apr-24 18:00:02 - Connecting to AZURE SQL DB and updating control table
+27-Apr-24 18:00:02 - Updated successfully
+27-Apr-24 18:00:02 - Raw data load completed, time taken 0:00:00.445850
+27-Apr-24 18:00:02 - Done. Returned value was: None
+27-Apr-24 18:00:02 - ::group::Post task execution logs
+27-Apr-24 18:00:02 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=load_raw_data_task, execution_date=20240427T175922, start_date=20240427T180001, end_date=20240427T180002

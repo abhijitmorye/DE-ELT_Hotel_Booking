@@ -1,0 +1,202 @@
+facility_type_id,name,room_facility_type_id
+7,Tea/Coffee maker,1
+3,Internet facilities,2
+7,Minibar,3
+5,Shower,4
+5,Bath,5
+4,Safety deposit box,6
+6,Pay-per-view channels,7
+6,TV,8
+6,Telephone,9
+6,Fax,10
+4,Air conditioning,11
+5,Hairdryer,12
+8,Wake up service/Alarm clock,13
+4,Hot tub,14
+4,Iron,15
+7,Kitchenette,16
+9,Balcony,17
+4,Pants press,18
+5,Bathrobe,19
+5,Spa bath,20
+6,Radio,21
+7,Refrigerator,22
+4,Desk,23
+5,Shared bathroom,24
+4,Ironing facilities,25
+4,Seating Area,26
+5,Free toiletries,27
+6,DVD player,28
+6,CD player,29
+4,Fan,30
+5,Toilet,31
+7,Microwave,32
+7,Dishwasher,33
+4,Washing machine,34
+6,Video,35
+6,Video games,36
+9,Patio,37
+5,Private bathroom,38
+4,Extra long beds (> 2 metres),39
+4,Heating,40
+4,Dressing room,41
+5,Shared toilet,42
+5,Slippers,43
+6,Satellite channels,44
+7,Kitchen,45
+3,Wireless Internet,46
+6,Cable channels,68
+5,Bath or shower,69
+4,Carpeted,70
+4,Fireplace,71
+5,Additional toilet,72
+4,Interconnected room(s) available,73
+6,Laptop safe,74
+6,Flat-screen TV,75
+4,Private entrance,76
+4,Sofa,77
+4,Soundproofing,79
+4,Tile/marble floor,80
+9,View,81
+4,Hardwood or parquet floors,82
+8,Wake-up service,83
+8,Alarm clock,84
+7,Dining area,85
+7,Electric kettle,86
+8,Executive lounge access,87
+6,iPod dock,88
+7,Kitchenware,89
+4,Mosquito net,90
+8,Towels/sheets (extra fee),91
+5,Sauna,92
+4,Private pool,93
+4,Tumble dryer,94
+4,Wardrobe or closet,95
+7,Oven,96
+7,Stovetop,97
+7,Toaster,98
+7,Barbecue,99
+5,Bidet,100
+6,Computer,101
+6,iPad,102
+6,Game console,103
+6,Game console – Xbox 360,104
+6,Game console – PS2,105
+6,Game console – PS3,106
+6,Game console – Nintendo Wii,107
+9,Sea view,108
+9,Lake view,109
+9,Garden view,110
+9,Pool view,111
+9,Mountain view,112
+9,Landmark view,113
+6,Laptop,114
+4,Hypoallergenic,115
+4,Cleaning products,116
+4,Electric blankets,117
+5,Additional bathroom,118
+6,Blu-ray player,119
+7,Coffee machine,120
+9,City view,121
+9,River view,122
+9,Terrace,123
+8,Towels,124
+8,Linen,125
+7,Dining table,126
+7,Children's high chair,127
+7,Outdoor furniture,129
+7,Outdoor dining area,130
+19,Entire unit located on ground floor,131
+19,Upper floors accessible by elevator,132
+19,Upper floors accessible by stairs only,133
+19,Entire unit wheelchair accessible,134
+20,Detached,135
+20,Semi-detached,136
+20,Private apartment in building,137
+4,Clothes rack,138
+4,Fold-up bed,139
+4,Drying rack for clothing,140
+5,Toilet paper,141
+25,Child safety socket covers,142
+25,Board games/puzzles,143
+25,"Books, DVDs, or music for children",144
+25,Baby safety gates,145
+4,Sofa bed,146
+19,Toilet with grab rails,147
+19,Adapted bath,148
+19,Roll-in shower,149
+19,Walk-in shower,150
+19,Raised toilet,151
+19,Lowered sink,152
+19,Emergency cord in bathroom,153
+19,Shower chair,154
+4,Rooftop pool,157
+4,Infinity pool,158
+4,Pool with a view,159
+4,Heated pool,160
+4,Salt water pool,161
+4,Plunge pool,162
+4,Pool towels,163
+4,Shallow end,164
+4,Pool cover,165
+7,Wine or champagne,166
+7,Bottle of water,167
+7,Fruits,168
+7,Chocolate or cookies,169
+4,Trash cans,170
+7,Wine glasses,171
+6,Game console – Xbox One,172
+6,Game console – Wii U,173
+6,Game console – PS4,174
+4,Cribs,175
+5,Toothbrush,176
+5,Shampoo,177
+5,Conditioner,178
+5,Body soap,179
+5,Shower cap,180
+4,Pajamas,181
+4,Yukata,182
+4,Socket near the bed,184
+4,Adapter,185
+4,Feather pillow,186
+4,Non-feather pillow,187
+4,Hypoallergenic pillow,188
+19,Accessible by lift,189
+9,Inner courtyard view,190
+9,Quiet street view,191
+6,Mobile hotspot device,196
+6,Smartphone,198
+6,Streaming service (like Netflix),199
+8,Lockers,200
+34,Smoke alarm,201
+34,Fire extinguisher,202
+8,Key access,203
+8,Key card access,204
+33,Reading light,205
+33,Earplugs,206
+33,Privacy curtain,207
+18,Window,208
+30,Open-air bath,209
+4,Tatami (traditional Japanese flooring),210
+34,Carbon monoxide detector,211
+34,Carbon monoxide sources,212
+37,Air purifiers,215
+43,Complimentary breakfast in the executive lounge,217
+43,Complimentary snacks and drinks in the executive lounge entire day,218
+43,Complimentary afternoon snacks and drinks in the executive lounge,219
+43,Complimentary evening snacks and drinks in the executive lounge,220
+43,Free spa access,221
+43,Free gym access,222
+43,Complimentary access to conference room/business areas,223
+43,Access to private pool,224
+43,Access to a private beach,225
+43,Private check-in and check-out in the executive lounge,226
+43,Concierge services,227
+43,Free newspapers and magazines in the executive lounge,228
+43,Free laundry services,229
+39,Single-room air conditioning for guest accommodation,230
+40,Hand sanitiser,231
+19,Hearing accessible,232
+19,Accessible room,233
+5,Transfer shower,234
+5,Transfer shower,235

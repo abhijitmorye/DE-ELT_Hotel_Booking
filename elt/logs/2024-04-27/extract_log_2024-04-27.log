@@ -1,0 +1,93 @@
+27-Apr-24 16:30:35 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+27-Apr-24 16:30:35 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+27-Apr-24 16:30:35 - Json Data directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/json_data/2024-04-27
+27-Apr-24 16:30:35 - Extraction of cities data started
+27-Apr-24 16:30:36 - Extraction of cities data completed, time taken - 0:00:00.446460
+27-Apr-24 16:30:36 - Extraction of hotels data started
+27-Apr-24 16:30:36 - Extraction of hotels data completed, time taken - 0:00:00.877916
+27-Apr-24 16:30:36 - Extraction of chain types data started
+27-Apr-24 16:30:37 - Extraction of chain types data completed, time taken - 0:00:00.356532
+27-Apr-24 16:30:37 - Extraction of regions data started
+27-Apr-24 16:30:37 - Extraction of regions data completed, time taken - 0:00:00.195033
+27-Apr-24 16:30:37 - Extraction of hotel types data started
+27-Apr-24 16:30:37 - Extraction of hotel types data completed, time taken - 0:00:00.178032
+27-Apr-24 16:30:37 - Extraction of room facility types data started
+27-Apr-24 16:30:37 - Extraction of room facility types data completed, time taken - 0:00:00.276303
+27-Apr-24 16:30:37 - Extraction of payemnt types data started
+27-Apr-24 16:30:38 - Extraction of payment types data completed, time taken - 0:00:00.608569
+27-Apr-24 16:30:38 - Extraction of districts data started
+27-Apr-24 16:30:38 - Extraction of districts data completed, time taken - 0:00:00.359598
+27-Apr-24 16:30:38 - Extraction of countries data started
+27-Apr-24 16:30:39 - Extraction of countries data completed, time taken - 0:00:00.256445
+27-Apr-24 16:30:39 - Extraction of room-types data started
+27-Apr-24 16:30:39 - Extraction of room-types data completed, time taken - 0:00:00.252316
+27-Apr-24 16:30:39 - Extraction of hotel-facility-types data started
+27-Apr-24 16:30:39 - Extraction of hotel-facility-types data completed, time taken - 0:00:00.257740
+27-Apr-24 16:30:39 - Extraction of facility-types data started
+27-Apr-24 16:30:39 - Extraction of facility-types data completed, time taken - 0:00:00.243472
+27-Apr-24 16:30:39 - Extraction of data completed. Time taken - 0:00:04.337784
+27-Apr-24 16:30:39 - Done. Returned value was: None
+27-Apr-24 16:30:39 - ::group::Post task execution logs
+27-Apr-24 16:30:39 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=extract_hotel_api_data_task, execution_date=20240427T163031, start_date=20240427T163035, end_date=20240427T163039
+27-Apr-24 17:12:32 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+27-Apr-24 17:12:32 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+27-Apr-24 17:12:32 - Json Data directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/json_data/2024-04-27
+27-Apr-24 17:12:32 - Extraction of cities data started
+27-Apr-24 17:12:33 - Extraction of cities data completed, time taken - 0:00:00.234373
+27-Apr-24 17:12:33 - Extraction of hotels data started
+27-Apr-24 17:12:33 - Extraction of hotels data completed, time taken - 0:00:00.757160
+27-Apr-24 17:12:33 - Extraction of chain types data started
+27-Apr-24 17:12:33 - Extraction of chain types data completed, time taken - 0:00:00.195393
+27-Apr-24 17:12:33 - Extraction of regions data started
+27-Apr-24 17:12:34 - Extraction of regions data completed, time taken - 0:00:00.348220
+27-Apr-24 17:12:34 - Extraction of hotel types data started
+27-Apr-24 17:12:34 - Extraction of hotel types data completed, time taken - 0:00:00.339923
+27-Apr-24 17:12:34 - Extraction of room facility types data started
+27-Apr-24 17:12:34 - Extraction of room facility types data completed, time taken - 0:00:00.178965
+27-Apr-24 17:12:34 - Extraction of payemnt types data started
+27-Apr-24 17:12:35 - Extraction of payment types data completed, time taken - 0:00:00.380318
+27-Apr-24 17:12:35 - Extraction of districts data started
+27-Apr-24 17:12:35 - Extraction of districts data completed, time taken - 0:00:00.423137
+27-Apr-24 17:12:35 - Extraction of countries data started
+27-Apr-24 17:12:35 - Extraction of countries data completed, time taken - 0:00:00.156754
+27-Apr-24 17:12:35 - Extraction of room-types data started
+27-Apr-24 17:12:36 - Extraction of room-types data completed, time taken - 0:00:00.343038
+27-Apr-24 17:12:36 - Extraction of hotel-facility-types data started
+27-Apr-24 17:12:36 - Extraction of hotel-facility-types data completed, time taken - 0:00:00.522105
+27-Apr-24 17:12:36 - Extraction of facility-types data started
+27-Apr-24 17:12:37 - Extraction of facility-types data completed, time taken - 0:00:00.318009
+27-Apr-24 17:12:37 - Extraction of data completed. Time taken - 0:00:04.235457
+27-Apr-24 17:12:37 - Done. Returned value was: None
+27-Apr-24 17:12:37 - ::group::Post task execution logs
+27-Apr-24 17:12:37 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=extract_hotel_api_data_task, execution_date=20240427T171228, start_date=20240427T171232, end_date=20240427T171237
+27-Apr-24 17:59:26 - Parent directory is /home/abhijitmorye/DE-ELT_Hotel_Booking
+27-Apr-24 17:59:26 - Current directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt
+27-Apr-24 17:59:26 - Json Data directory is /home/abhijitmorye/DE-ELT_Hotel_Booking/elt/json_data/2024-04-27
+27-Apr-24 17:59:26 - Extraction of cities data started
+27-Apr-24 17:59:27 - Extraction of cities data completed, time taken - 0:00:00.398899
+27-Apr-24 17:59:27 - Extraction of hotels data started
+27-Apr-24 17:59:27 - Extraction of hotels data completed, time taken - 0:00:00.492781
+27-Apr-24 17:59:27 - Extraction of chain types data started
+27-Apr-24 17:59:28 - Extraction of chain types data completed, time taken - 0:00:00.382792
+27-Apr-24 17:59:28 - Extraction of regions data started
+27-Apr-24 17:59:28 - Extraction of regions data completed, time taken - 0:00:00.351979
+27-Apr-24 17:59:28 - Extraction of hotel types data started
+27-Apr-24 17:59:28 - Extraction of hotel types data completed, time taken - 0:00:00.247927
+27-Apr-24 17:59:28 - Extraction of room facility types data started
+27-Apr-24 17:59:28 - Extraction of room facility types data completed, time taken - 0:00:00.270901
+27-Apr-24 17:59:28 - Extraction of payemnt types data started
+27-Apr-24 17:59:29 - Extraction of payment types data completed, time taken - 0:00:00.273559
+27-Apr-24 17:59:29 - Extraction of districts data started
+27-Apr-24 17:59:29 - Extraction of districts data completed, time taken - 0:00:00.554612
+27-Apr-24 17:59:29 - Extraction of countries data started
+27-Apr-24 17:59:30 - Extraction of countries data completed, time taken - 0:00:00.237963
+27-Apr-24 17:59:30 - Extraction of room-types data started
+27-Apr-24 17:59:30 - Extraction of room-types data completed, time taken - 0:00:00.316517
+27-Apr-24 17:59:30 - Extraction of hotel-facility-types data started
+27-Apr-24 17:59:30 - Extraction of hotel-facility-types data completed, time taken - 0:00:00.200133
+27-Apr-24 17:59:30 - Extraction of facility-types data started
+27-Apr-24 17:59:30 - Extraction of facility-types data completed, time taken - 0:00:00.266347
+27-Apr-24 17:59:30 - Extraction of data completed. Time taken - 0:00:04.031432
+27-Apr-24 17:59:30 - Done. Returned value was: None
+27-Apr-24 17:59:30 - ::group::Post task execution logs
+27-Apr-24 17:59:30 - Marking task as SUCCESS. dag_id=elt_hotel_data, task_id=extract_hotel_api_data_task, execution_date=20240427T175922, start_date=20240427T175926, end_date=20240427T175930

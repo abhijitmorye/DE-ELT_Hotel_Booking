@@ -1,0 +1,69 @@
+name,payment_id,bookable
+American Express,1,True
+Visa,2,True
+Euro/Mastercard,3,True
+Carte Bleue,4,False
+Diners Club,5,True
+JCB,7,True
+PIN,8,False
+Red 6000,9,False
+Maestro,10,False
+Discover,11,True
+Bancontact,12,False
+Solo,13,False
+Switch,14,True
+Carte Blanche,15,True
+NICOS,16,False
+UC,17,False
+"No creditcards accepted, only cash",18,False
+Bankcard,19,False
+CartaSi,21,False
+Argencard,22,True
+Cabal,23,False
+Red Compra,25,False
+Other Cards,26,False
+Greatwall,27,False
+Peony,28,False
+Dragon,29,False
+Pacific,30,True
+Jin Sui,31,False
+Eftpos,32,False
+Hipercard,34,True
+UnionPay debit card,35,False
+UnionPay credit card,36,True
+EC-Card,37,False
+BC-Card,38,False
+KH SzÃ©chÃ©nyi PihenÃµkÃ¡rtya,41,False
+MKB SzÃ©chÃ©nyi PihenÃµkÃ¡rtya,42,False
+OTP SzÃ©chÃ©nyi PihenÃµkÃ¡rtya,43,False
+UnionPay credit card,44,True
+Cash,45,False
+PayPal,46,False
+Cheque (domestic only),47,False
+ANCV chÃ¨ques-vacances,48,False
+PayPlug,49,False
+Euro 6000,50,False
+Postepay,51,False
+Sistema 4B,52,False
+PagSeguro,53,False
+Elo Creditcard,54,True
+Bcash,55,False
+Interac e-Transfer,56,False
+M-Pesa,57,False
+Knet,58,False
+Western Union,59,False
+Apple Pay,60,False
+Square Cash,61,False
+iDeal,62,False
+BankAxept,63,False
+Reka-Check,64,False
+Paysera.com,65,False
+BankLink,66,False
+Alipay,67,False
+Tenpay,68,False
+Lastschrift,69,False
+Sadad,70,False
+Qiwi,71,False
+AirPlus,72,False
+Virtual Credit Card,73,False
+Mir,76,False

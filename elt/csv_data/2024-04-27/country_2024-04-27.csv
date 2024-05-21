@@ -1,0 +1,230 @@
+area,country,name
+Europe,ad,Andorra
+Middle East,ae,United Arab Emirates
+Middle East,af,Afghanistan
+Caribbean,ag,Antigua & Barbuda
+Caribbean,ai,Anguilla
+Europe,al,Albania
+Europe,am,Armenia
+Africa,ao,Angola
+South America,ar,Argentina
+Asia,as,American Samoa
+Europe,at,Austria
+Oceania,au,Australia
+Caribbean,aw,Aruba
+Europe,az,Azerbaijan
+Europe,ba,Bosnia and Herzegovina
+Caribbean,bb,Barbados
+Asia,bd,Bangladesh
+Europe,be,Belgium
+Africa,bf,Burkina Faso
+Europe,bg,Bulgaria
+Middle East,bh,Bahrain
+Africa,bi,Burundi
+Africa,bj,Benin
+Caribbean,bl,Saint Barthelemy
+Caribbean,bm,Bermuda
+Asia,bn,Brunei Darussalam
+South America,bo,Bolivia
+Caribbean,bq,Bonaire St Eustatius and Saba
+South America,br,Brazil
+Caribbean,bs,Bahamas
+Asia,bt,Bhutan
+Africa,bw,Botswana
+Europe,by,Belarus
+Central America,bz,Belize
+North America,ca,Canada
+Oceania,cc,Cocos (K) I.
+Africa,cd,Democratic Republic of Congo
+Africa,cf,Central Africa Republic
+Africa,cg,Congo
+Europe,ch,Switzerland
+Africa,ci,Côte d'Ivoire
+Oceania,ck,Cook Islands
+South America,cl,Chile
+Africa,cm,Cameroon
+Asia,cn,China
+South America,co,Colombia
+Central America,cr,Costa Rica
+Caribbean,cu,Cuba
+Africa,cv,Cape Verde
+Caribbean,cw,Curaçao
+Europe,cy,Cyprus
+Europe,cz,Czech Republic
+Europe,de,Germany
+Africa,dj,Djibouti
+Europe,dk,Denmark
+Caribbean,dm,Dominica
+Caribbean,do,Dominican Republic
+Africa,dz,Algeria
+South America,ec,Ecuador
+Europe,ee,Estonia
+Africa,eg,Egypt
+Africa,er,Eritrea
+Europe,es,Spain
+Africa,et,Ethiopia
+Europe,fi,Finland
+Oceania,fj,Fiji
+South America,fk,Falkland Islands (Malvinas)
+Oceania,fm,Micronesia
+Europe,fo,Faroe Islands
+Europe,fr,France
+Africa,ga,Gabon
+Europe,gb,United Kingdom
+Caribbean,gd,Grenada
+Europe,ge,Georgia
+South America,gf,French Guiana
+Africa,gh,Ghana
+Europe,gi,Gibraltar
+Europe,gl,Greenland
+Africa,gm,Gambia
+Africa,gn,Guinea
+Caribbean,gp,Guadeloupe
+Africa,gq,Equatorial Guinea
+Europe,gr,Greece
+Central America,gt,Guatemala
+Oceania,gu,Guam
+Africa,gw,Guinea-Bissau
+South America,gy,Guyana
+Asia,hk,Hong Kong
+Central America,hn,Honduras
+Europe,hr,Croatia
+Caribbean,ht,Haiti
+Europe,hu,Hungary
+Asia,id,Indonesia
+Europe,ie,Ireland
+Middle East,il,Israel
+Europe,im,Isle of Man
+Asia,in,India
+Middle East,iq,Iraq
+Europe,is,Iceland
+Europe,it,Italy
+Caribbean,jm,Jamaica
+Middle East,jo,Jordan
+Asia,jp,Japan
+Africa,ke,Kenya
+Asia,kg,Kyrgyzstan
+Asia,kh,Cambodia
+Oceania,ki,Kiribati
+Africa,km,Comoros
+Caribbean,kn,Saint Kitts and Nevis
+Asia,kr,South Korea
+Middle East,kw,Kuwait
+Caribbean,ky,Cayman Islands
+Asia,kz,Kazakhstan
+Asia,la,Laos
+Middle East,lb,Lebanon
+Caribbean,lc,Saint Lucia
+Europe,li,Liechtenstein
+Asia,lk,Sri Lanka
+Africa,lr,Liberia
+Africa,ls,Lesotho
+Europe,lt,Lithuania
+Europe,lu,Luxembourg
+Europe,lv,Latvia
+Africa,ly,Libya
+Africa,ma,Morocco
+Europe,mc,Monaco
+Europe,md,Moldova
+Europe,me,Montenegro
+Caribbean,mf,Saint Martin
+Africa,mg,Madagascar
+Oceania,mh,Marshall Islands
+Europe,mk,North Macedonia
+Africa,ml,Mali
+Asia,mm,Myanmar
+Asia,mn,Mongolia
+Asia,mo,Macao
+Oceania,mp,Northern Mariana Islands
+Caribbean,mq,Martinique
+Africa,mr,Mauritania
+Caribbean,ms,Montserrat
+Europe,mt,Malta
+Africa,mu,Mauritius
+Asia,mv,Maldives
+Africa,mw,Malawi
+North America,mx,Mexico
+Asia,my,Malaysia
+Africa,mz,Mozambique
+Africa,na,Namibia
+Oceania,nc,New Caledonia
+Africa,ne,Niger
+Oceania,nf,Norfolk Island
+Africa,ng,Nigeria
+Central America,ni,Nicaragua
+Europe,nl,Netherlands
+Europe,no,Norway
+Asia,np,Nepal
+Oceania,nr,Nauru
+Oceania,nu,Niue
+Oceania,nz,New Zealand
+Middle East,om,Oman
+Central America,pa,Panama
+South America,pe,Peru
+Oceania,pf,French Polynesia
+Oceania,pg,Papua New Guinea
+Asia,ph,Philippines
+Asia,pk,Pakistan
+Europe,pl,Poland
+North America,pm,St Pierre and Miquelon
+Caribbean,pr,Puerto Rico
+Middle East,ps,Palestinian Territory
+Europe,pt,Portugal
+Oceania,pw,Palau
+South America,py,Paraguay
+Middle East,qa,Qatar
+Africa,re,Reunion
+Europe,ro,Romania
+Europe,rs,Serbia
+Europe,ru,Russia
+Africa,rw,Rwanda
+Middle East,sa,Saudi Arabia
+Oceania,sb,Solomon Islands
+Africa,sc,Seychelles
+Europe,se,Sweden
+Asia,sg,Singapore
+Caribbean,sh,St Helena
+Europe,si,Slovenia
+Europe,sk,Slovakia
+Africa,sl,Sierra Leone
+Europe,sm,San Marino
+Africa,sn,Senegal
+South America,sr,Suriname
+Africa,ss,South Sudan
+Africa,st,São Tomé and Príncipe
+Central America,sv,El Salvador
+Caribbean,sx,Sint Maarten
+Africa,sz,Eswatini
+Caribbean,tc,Turks & Caicos Islands
+Africa,td,Chad
+Africa,tg,Togo
+Asia,th,Thailand
+Asia,tj,Tajikistan
+Asia,tl,East Timor
+Africa,tn,Tunisia
+Oceania,to,Tonga
+Europe,tr,Turkey
+Caribbean,tt,Trinidad and Tobago
+Oceania,tv,Tuvalu
+Asia,tw,Taiwan
+Africa,tz,Tanzania
+Europe,ua,Ukraine
+Africa,ug,Uganda
+North America,us,United States
+South America,uy,Uruguay
+Asia,uz,Uzbekistan
+Caribbean,vc,Saint Vincent & Grenadines
+South America,ve,Venezuela
+Caribbean,vg,UK Virgin Islands
+Caribbean,vi,US Virgin Islands
+Asia,vn,Vietnam
+Oceania,vu,Vanuatu
+Oceania,ws,Samoa
+Europe,xa,Abkhazia
+Europe,xc,Crimea
+Europe,xk,Kosovo
+Europe,xy,Northern Cyprus
+Africa,yt,Mayotte
+Africa,za,South Africa
+Africa,zm,Zambia
+Africa,zw,Zimbabwe

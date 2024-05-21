@@ -25,7 +25,7 @@ Built end-to-end data engineering pipeline to extract, load and transform Hotel 
 
 - Once transformed, load CSV data into Azure Blob Storage.
 
-- Developed Azure Data factor pipeline to load CSV data into Databricks DeltaLakeHouse in the form of delta tables.
+- Developed Azure Data factory pipeline to load CSV data into Databricks DeltaLakeHouse in the form of delta tables.
 
 - Before loading CSV data as delta tables, inside ADF, configured databricks notebook to remove null values, duplicate values as well as, built incremental data loading code using PySpark, databcirks notebook and Spark Cluster.
 
